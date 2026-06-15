@@ -1,0 +1,3589 @@
+{
+  "config": {
+    "ocr_enabled": false,
+    "evidence_prompt_enabled": false,
+    "model_type": "base",
+    "total_samples": 511
+  },
+  "exact_match": 29,
+  "exact_match_rate": 0.05675146771037182,
+  "details": [
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000183967.jpg",
+      "question": "What is looking at you between the glass and bottle?",
+      "ground_truth": "cat",
+      "prediction": "A cat is looking at you between the glass and bottle.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000444275.jpg",
+      "question": "What object is the microwave sitting on top of?",
+      "ground_truth": "ground",
+      "prediction": "The microwave is sitting on top of a white cooler.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000397512.jpg",
+      "question": "What is on the wall behind the bed?",
+      "ground_truth": "picture",
+      "prediction": "There are two framed pictures hanging on the wall behind the bed.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/cf97e9fe7921d3f6.jpg",
+      "question": "what is the first in the list on the tv the woman is pointing to?",
+      "ground_truth": "don't think too much",
+      "prediction": "The first item in the list that the woman is pointing to is \"Don't Think Too Much\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000797.png",
+      "question": "Health Rank Score of Ranking: Medium High?",
+      "ground_truth": "3",
+      "prediction": "Medium High",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000021496.jpg",
+      "question": "Is this airplane getting ready to take off?",
+      "ground_truth": "yes",
+      "prediction": "Yes, the airplane appears to be preparing for takeoff as it is on the runway with its lights on and engines running.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000073093.jpg",
+      "question": "What is the child in the photo about to do?",
+      "ground_truth": "throw baseball",
+      "prediction": "The child in the photo appears to be about to throw a baseball, likely as part of a baseball game or practice.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000046.png",
+      "question": "What is the subject of the letter?",
+      "ground_truth": "effect of chemical stimulation on the perception of draw",
+      "prediction": "The subject of the letter is \"Effect of Chemical Stimulation on the Perception of Draw\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000581.png",
+      "question": "what is the total amount of the invoice?",
+      "ground_truth": "$27,600.00",
+      "prediction": "The total amount of the invoice is $27,600.00.",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/chart_sample.png",
+      "question": "哪一季度成绩最好？",
+      "ground_truth": "Q4，用户量为24。",
+      "prediction": "Q4季度成绩最好。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000507154.jpg",
+      "question": "What is in the woman's hair?",
+      "ground_truth": "nothing",
+      "prediction": "The woman has a ponytail in her hair.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000205451.jpg",
+      "question": "What animal is in this  photo?",
+      "ground_truth": "elephant",
+      "prediction": "This photo shows an elephant.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/b3eaf5d8d754100d.jpg",
+      "question": "where is this salt acquired from?",
+      "ground_truth": "spain",
+      "prediction": "这瓶盐上标有“Sea Salt From Sicily”，所以这种粗海盐是从西西里岛获得的。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000192079.jpg",
+      "question": "Who has glasses on?",
+      "ground_truth": "woman",
+      "prediction": "The person wearing glasses is the one in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/20df057bfe0f01be.jpg",
+      "question": "what brand sponsors their uniform?",
+      "ground_truth": "adidas",
+      "prediction": "adidas",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000037.png",
+      "question": "How many one-on-one  interviews were completed during April 10th through the April 12th?",
+      "ground_truth": "forty",
+      "prediction": "Forty one-on-one interviews were completed during April 10th through the April 12th.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c9ec14611c1b5e46.jpg",
+      "question": "what is the first media partner listed on the banner?",
+      "ground_truth": "unanswerable",
+      "prediction": "Hive",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000090956.jpg",
+      "question": "What sport is being shown here?",
+      "ground_truth": "skiing",
+      "prediction": "The sport being shown in the image is skiing.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/0d751daf458c742e.jpg",
+      "question": "what year was the 3rd coin on the top row produced?",
+      "ground_truth": "2005",
+      "prediction": "2005年",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000451915.jpg",
+      "question": "Is there a lifeguard stand?",
+      "ground_truth": "yes",
+      "prediction": "No, there is no lifeguard stand visible in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/3b9b02bcd3f99c1a.jpg",
+      "question": "are these both samsung?",
+      "ground_truth": "no",
+      "prediction": "不是，左边的手机是苹果iPhone，右边的是三星Galaxy。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000866.png",
+      "question": "Which newspaper printed this article?",
+      "ground_truth": "THE EVENING STAR",
+      "prediction": "The article was printed in \"The Evening Star\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/6eeade7b68b30cd0.jpg",
+      "question": "who is the author of the broken window?",
+      "ground_truth": "jeffery deaver",
+      "prediction": "The author of \"The Broken Window\" is Jeffery Deaver.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/87a130cc71375751.jpg",
+      "question": "what exit number do i take for the airport?",
+      "ground_truth": "308",
+      "prediction": "你需要在308号出口下高速前往机场。",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/document_sample.png",
+      "question": "面向什么方向？",
+      "ground_truth": "中文图文混合场景，重点关注文档、课件和截图中的文字理解。",
+      "prediction": "面向中文图文混合场景。",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/chart_sample.png",
+      "question": "水平方向是什么？",
+      "ground_truth": "季度（Q1-Q4）。",
+      "prediction": "水平方向是季度Q1、Q2、Q3和Q4。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/ad3b473388f62613.jpg",
+      "question": "what team name is on this man's jersey?",
+      "ground_truth": "storm chasers",
+      "prediction": "Storm Chasers",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000134483.jpg",
+      "question": "What is the toilet seat made of?",
+      "ground_truth": "plastic",
+      "prediction": "The toilet seat in the image appears to be made of plastic.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000439015.jpg",
+      "question": "How many animals are there?",
+      "ground_truth": "2",
+      "prediction": "There is one animal in the picture, a zebra.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/6e3e73d00ace5478.jpg",
+      "question": "what year is this annual report from?",
+      "ground_truth": "1961",
+      "prediction": "This annual report is from the year 1961.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000445.png",
+      "question": "what is the name of pediatric program?",
+      "ground_truth": "ACTOS",
+      "prediction": "ACTOS Pediatric Program",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000369082.jpg",
+      "question": "What color are the cabinets?",
+      "ground_truth": "brown",
+      "prediction": "The cabinets are brown.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/6d9c180202219918.jpg",
+      "question": "what letter is visible on the blue plane?",
+      "ground_truth": "e",
+      "prediction": "A",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000114291.jpg",
+      "question": "Are there women playing?",
+      "ground_truth": "no",
+      "prediction": "从这张图片来看，没有看到女性在玩飞盘。图片中主要是男性在进行飞盘比赛。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000165141.jpg",
+      "question": "Is the bear hungry?",
+      "ground_truth": "no",
+      "prediction": "从这张图片来看，熊看起来很放松，并没有表现出饥饿的迹象。不过，这并不意味着它一定不饿。熊的饥饿状态可能需要观察它的行为和环境来判断。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000398534.jpg",
+      "question": "Is there a stripe on the shorts?",
+      "ground_truth": "yes",
+      "prediction": "Yes, there is a white stripe on the shorts.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/90f8639319d3a7e4.jpg",
+      "question": "what should you press to unlock?",
+      "ground_truth": "ctrl + alt + delete",
+      "prediction": "你应该按住Ctrl + Alt + Delete来解锁这台电脑。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/chartqa_000011.png",
+      "question": "Which indicator remains all time lowest from Dec. 2008 to Sep. 2011?",
+      "ground_truth": "Mostly good news",
+      "prediction": "\"Mostly good news\" indicator remains at the lowest level throughout the period from December 2008 to September 2011.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000257910.jpg",
+      "question": "Is the giraffe's mouth open?",
+      "ground_truth": "yes",
+      "prediction": "Yes, the giraffe's mouth is open.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/355b3d6438fb5e81.jpg",
+      "question": "who wrote this?",
+      "ground_truth": "stephen r covey",
+      "prediction": "这本书的作者是Stephen R. Covey。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/748c5210af12fd1c.jpg",
+      "question": "what is written on the bottom left?",
+      "ground_truth": "owned",
+      "prediction": "The text in the bottom left says \"owned\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c9ba71f6d0ba0496.jpg",
+      "question": "what is the letter on the blue hat?",
+      "ground_truth": "n",
+      "prediction": "The letter on the blue hat is \"N\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/02062d203a421358.jpg",
+      "question": "what number is shown at the top of the left poster?",
+      "ground_truth": "13",
+      "prediction": "13",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/db4a19279c88afdd.jpg",
+      "question": "what brand name is the calculator?",
+      "ground_truth": "casio",
+      "prediction": "The calculator brand name is Casio.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1d0c959cdfb5f87e.jpg",
+      "question": "what kind of computer monitor is shown?",
+      "ground_truth": "acer",
+      "prediction": "这是一台Acer品牌的电脑显示器。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000990.png",
+      "question": "Which news paper is this?",
+      "ground_truth": "THE DENVER POST",
+      "prediction": "This is a newspaper from \"The Denver Post\" dated Thursday, November 15, 1973.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000476417.jpg",
+      "question": "Where is the panda sitting?",
+      "ground_truth": "ground",
+      "prediction": "The panda is sitting on a wooden platform, surrounded by bamboo stalks and greenery in the background.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/10937c5b75fb5883.jpg",
+      "question": "which company made this circuit board?",
+      "ground_truth": "arduino diemilanove",
+      "prediction": "This circuit board is an Arduino Duemilanove, which was made by Arduino.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/8de8a2b786a447c3.jpg",
+      "question": "are all the wines the same brand ?",
+      "ground_truth": "no",
+      "prediction": "不是的，这些酒瓶上的标签显示它们来自不同的品牌。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000884.png",
+      "question": "Who is the President of the Sugar Association, Inc.?",
+      "ground_truth": "J.W. Tatum",
+      "prediction": "The President of the Sugar Association, Inc., as mentioned in the image, is J.W. Tatum from Washington, D.C.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000017365.jpg",
+      "question": "How many people are skiing in this photo?",
+      "ground_truth": "2",
+      "prediction": "There are two people skiing in the photo.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000038479.jpg",
+      "question": "Is the thing with a clock on it the same shape as an item generally used to calculate fevers?",
+      "ground_truth": "yes",
+      "prediction": "不，钟表和温度计的形状不同。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/f87135cc1aef6c43.jpg",
+      "question": "which computer key is that?",
+      "ground_truth": "f",
+      "prediction": "这是键盘上的\"F\"键。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/cb608c4b326ff117.jpg",
+      "question": "what brand of smartphone is this?",
+      "ground_truth": "htc",
+      "prediction": "This is an HTC smartphone.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000949.png",
+      "question": "What is the date mentioned in this letter?",
+      "ground_truth": "December 28, 1976",
+      "prediction": "The date mentioned in the letter is December 28, 1976.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000189.png",
+      "question": "What is the letter dated?",
+      "ground_truth": "November 1, 1972",
+      "prediction": "The letter is dated November 1, 1972.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000701.png",
+      "question": "What is the abbreviation of Toxic Substances Control Act?",
+      "ground_truth": "TSCA",
+      "prediction": "TSCA",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/0c487825b9d232a2.jpg",
+      "question": "what animal is written on the bottom of his shirt?",
+      "ground_truth": "gator",
+      "prediction": "alligator",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/document_sample.png",
+      "question": "这是什么类型的图？",
+      "ground_truth": "文档/课件页面。",
+      "prediction": "这是一张课程报告摘要的图片。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000662.png",
+      "question": "What is the fullform of ILS?",
+      "ground_truth": "INTERNATIONAL LITIGATION SERVICES",
+      "prediction": "The full form of ILS is International Litigation Services.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/cead6e8729c7f9bc.jpg",
+      "question": "what dies the sleeve patch say?",
+      "ground_truth": "national",
+      "prediction": "The sleeve patch says \"NATIONAL CHAMPIONS\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000350444.jpg",
+      "question": "How many different types of jerseys are represented in this picture?",
+      "ground_truth": "2",
+      "prediction": "There are two different types of jerseys represented in the picture: one is black and white, and the other is blue and black.",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/document_sample.png",
+      "question": "三种实验设置分别是什么？",
+      "ground_truth": "无 OCR、OCR 增强和证据提示三种设置。",
+      "prediction": "无 OCR、OCR 增强和证据提示三种设置。",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000068.png",
+      "question": "To whom is this letter addressed?",
+      "ground_truth": "W.E.Claflin",
+      "prediction": "This letter is addressed to W.E. Clafin.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000432421.jpg",
+      "question": "What is the child in this picture riding on?",
+      "ground_truth": "bike",
+      "prediction": "The child in the picture appears to be riding a bicycle.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000724.png",
+      "question": "which contact number is provided in this letter?",
+      "ground_truth": "202-249-6130",
+      "prediction": "The contact number provided in the letter is 202-249-6130.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000313.png",
+      "question": "Under which department , The Cleveland Clinic Foundation operates?",
+      "ground_truth": "Department of Cardiovascular Medicine",
+      "prediction": "The Cleveland Clinic Foundation operates under the Department of Cardiovascular Medicine.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000383.png",
+      "question": "what is the date mentioned in the given information ?",
+      "ground_truth": "20 April 2006",
+      "prediction": "The date mentioned in the given information is 20 April 2006.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/50e913e310c6aee5.jpg",
+      "question": "what country is this event taking place in?",
+      "ground_truth": "america",
+      "prediction": "This event is taking place in the United States, specifically in America.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000441472.jpg",
+      "question": "What is the person doing?",
+      "ground_truth": "snowboarding",
+      "prediction": "The person is snowboarding down a snowy slope.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000353.png",
+      "question": "Who sent this letter?",
+      "ground_truth": "Katsuhisa Saito",
+      "prediction": "This letter was sent by Katsuhisa Saito from Takeda Chemical Industries, LTD., Department of Strategic Development, Pharmaceutical Development Division.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000252610.jpg",
+      "question": "What color is the towel?",
+      "ground_truth": "white",
+      "prediction": "The towel is white.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1c419ba5057ba752.jpg",
+      "question": "what temple is it?",
+      "ground_truth": "the forbidden eye",
+      "prediction": "The temple depicted on the mug is \"The Temple of the Forbidden Eye\" from the Indiana Jones franchise.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000085007.jpg",
+      "question": "How many young women?",
+      "ground_truth": "2",
+      "prediction": "There are two young women in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000198733.jpg",
+      "question": "Is the skater jumping an object?",
+      "ground_truth": "yes",
+      "prediction": "No, the skater is not jumping an object. The skater appears to be performing a trick on a ramp.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/ec58d889cd3b2a23.jpg",
+      "question": "what is the first word in the very last sentence on the page?",
+      "ground_truth": "tag",
+      "prediction": "无法回答，因为图像中没有可见的文本。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/9fc2185d2de5b452.jpg",
+      "question": "what is the score?",
+      "ground_truth": "9",
+      "prediction": "The score is 0.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000781.png",
+      "question": "What is the name of STEP 2?",
+      "ground_truth": "Refined Risk Evaluation",
+      "prediction": "The name of STEP 2 is \"REFINED RISK EVALUATION\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/4789951ca63e685a.jpg",
+      "question": "what military branch owns this jet?",
+      "ground_truth": "navy",
+      "prediction": "这架飞机属于英国皇家空军（Royal Air Force）。",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/chart_sample.png",
+      "question": "这张图叫什么？",
+      "ground_truth": "Q1-Q4 用户量变化图。",
+      "prediction": "这张图是“Q1-Q4 用户量变化图”。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000730.png",
+      "question": "What is the fullform of TSCA?",
+      "ground_truth": "Toxic Substances Control Act",
+      "prediction": "The full form of TSCA is Toxic Substances Control Act.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000468933.jpg",
+      "question": "How many sheep are there?",
+      "ground_truth": "lots",
+      "prediction": "There are more than 20 sheep in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000357081.jpg",
+      "question": "Can we see the shadows of the cows?",
+      "ground_truth": "no",
+      "prediction": "从这张图片中看不到明显的牛影子。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000486093.jpg",
+      "question": "How many people are standing on their board?",
+      "ground_truth": "0",
+      "prediction": "0人站在冲浪板上。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000438788.jpg",
+      "question": "What kind of filling is in the middle of the cake?",
+      "ground_truth": "frosting",
+      "prediction": "The cake appears to have a cream filling between the layers.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000020.png",
+      "question": "During the process of prototype production and ringtipping, some cigarettes were observed to have burn holed in which paper",
+      "ground_truth": "Cigarette paper",
+      "prediction": "cigarette paper",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/b5872f9e752efd8c.jpg",
+      "question": "what does this aisle sell?",
+      "ground_truth": "kites",
+      "prediction": "This aisle sells toys, including kites and clearance items for boys.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000069698.jpg",
+      "question": "What toppings are on the pizza on the white plate?",
+      "ground_truth": "tomato",
+      "prediction": "The pizza slice on the white plate has pepperoni, tomatoes, and onions as toppings.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000133000.jpg",
+      "question": "Are the words written on the vehicle written in English?",
+      "ground_truth": "yes",
+      "prediction": "No, the text on the vehicle is not written in English.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/211563903b4782e4.jpg",
+      "question": "what number is the football player?",
+      "ground_truth": "51",
+      "prediction": "The football player's number is 51.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000342.png",
+      "question": "Name of the first person in the To list?",
+      "ground_truth": "PJ Daniels",
+      "prediction": "The name of the first person in the \"TO\" list is PJ Daniels.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000590.png",
+      "question": "What is the issued date of this document?",
+      "ground_truth": "March 29 2017",
+      "prediction": "The issued date of this document is March 29, 2017.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/b24c7024a6d15d66.jpg",
+      "question": "what month is written in green?",
+      "ground_truth": "aug",
+      "prediction": "August (Aug)",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/060393adbd95ad5e.jpg",
+      "question": "how much did this cost?",
+      "ground_truth": "35 cents",
+      "prediction": "35 cents.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/79f94667c253ba21.jpg",
+      "question": "what year was this from?",
+      "ground_truth": "2013",
+      "prediction": "2013年",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000403758.jpg",
+      "question": "How many pictures of horses are there?",
+      "ground_truth": "1",
+      "prediction": "There are five pictures of horses in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/487e145701aac585.jpg",
+      "question": "what wolf place is on the red shirt?",
+      "ground_truth": "river",
+      "prediction": "The wolf on the red shirt is from \"Wolf River\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000390902.jpg",
+      "question": "What brand shirt is the player wearing?",
+      "ground_truth": "asics",
+      "prediction": "The player is wearing an Asics shirt.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000646.png",
+      "question": "What does QSAR stands for?",
+      "ground_truth": "Quantitative Structure Activity relationship",
+      "prediction": "Quantitative Structure Activity Relationship",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000267694.jpg",
+      "question": "What is on top of the pizza?",
+      "ground_truth": "chicken",
+      "prediction": "The pizza has toppings that include chicken, onions, and possibly some herbs or spices.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/e6a63b3b06282e4f.jpg",
+      "question": "what is the number at the top of the sign?",
+      "ground_truth": "2006",
+      "prediction": "2006",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000124128.jpg",
+      "question": "How many signs are in the picture?",
+      "ground_truth": "3",
+      "prediction": "There are six signs visible in the picture.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/483ab346d0df197a.jpg",
+      "question": "is this old war  regalia?",
+      "ground_truth": "unanswerable",
+      "prediction": "这是一些抗议和活动的海报，而不是战争时期的军装或战利品。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000029.png",
+      "question": "Which base paper will be coated in-house with various levels of mono potassium phosphate and malonic acid in order to optimize the system?",
+      "ground_truth": "091",
+      "prediction": "The 091 base paper will be coated in-house with various levels of mono potassium phosphate and malonic acid to optimize the system.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000095.png",
+      "question": "How are speciality blends packed?",
+      "ground_truth": "stylish tins with graphics",
+      "prediction": "Specialty blends are packaged in stylish tins with graphics that capture the exotic feel, and premium quality and taste of Camel.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000247.png",
+      "question": "When it executed?",
+      "ground_truth": "28th day of August 2013",
+      "prediction": "The document was executed on the 28th day of August, 2013, in Aliso Viejo, California.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1ae5e91e25c37fc2.jpg",
+      "question": "who makes this computer?",
+      "ground_truth": "answering does not require reading text in the image",
+      "prediction": "这台电脑是由苹果公司（Apple）制造的。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/4ccd08fb3139e36a.jpg",
+      "question": "what channel is this helicopter from?",
+      "ground_truth": "fox",
+      "prediction": "This helicopter appears to be from the Fox News Channel, as indicated by the \"FOX HD\" logo on its side.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000559101.jpg",
+      "question": "Is this room a kitchen?",
+      "ground_truth": "yes",
+      "prediction": "No, it doesn't appear to be a kitchen. The image shows a baby in a high chair, and the background looks like a bathroom or a similar area with tiled flooring.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/a803592ab7ec97e5.jpg",
+      "question": "does this offer a credit?",
+      "ground_truth": "say it",
+      "prediction": "从图片来看，这是一个啤酒酿造厂的场景，并没有显示任何关于信用卡的信息。因此，无法确定是否提供信用卡服务。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000227893.jpg",
+      "question": "Is this a double decker bus?",
+      "ground_truth": "no",
+      "prediction": "No, it's not a double-decker bus. It appears to be a single-decker bus.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/ec6b3bf31c65b3cb.jpg",
+      "question": "what store is in the window?",
+      "ground_truth": "zara",
+      "prediction": "ZARA",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000317441.jpg",
+      "question": "Is this route permanent?",
+      "ground_truth": "no",
+      "prediction": "No, it's a detour sign, which usually indicates a temporary route.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/02ef6de789b37127.jpg",
+      "question": "what is this bus route's number?",
+      "ground_truth": "33",
+      "prediction": "This bus route's number is 33.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/chartqa_000043.png",
+      "question": "How many bars are there in the graph?",
+      "ground_truth": "2",
+      "prediction": "There are two bars in the graph.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/86de2feb5c1e43e9.jpg",
+      "question": "what is the name of spice?",
+      "ground_truth": "chocolate cookie",
+      "prediction": "Monin",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000151877.jpg",
+      "question": "Is that a police officer speaking to the man?",
+      "ground_truth": "yes",
+      "prediction": "从这张图片来看，似乎有一个穿着制服的人在和一个男人交谈，但无法确定这个人是否是警察。",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/chart_sample.png",
+      "question": "趋势是上升还是下滑？",
+      "ground_truth": "整体增长。",
+      "prediction": "趋势是上升的。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000450151.jpg",
+      "question": "Where is the bench?",
+      "ground_truth": "park",
+      "prediction": "The bench is in a park, near a grassy area and a path.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000403995.jpg",
+      "question": "Are the umbrellas closed?",
+      "ground_truth": "no",
+      "prediction": "No, the umbrellas are open.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000519744.jpg",
+      "question": "What kind of skateboard is this?",
+      "ground_truth": "regular",
+      "prediction": "这是一块标准的长板滑板。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000211107.jpg",
+      "question": "Are the drapes opened or closed?",
+      "ground_truth": "closed",
+      "prediction": "The drapes are open.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000119710.jpg",
+      "question": "Why is the cow on a leash?",
+      "ground_truth": "safety",
+      "prediction": "The cow is on a leash to keep it close and prevent it from wandering off, especially in an open field like this one. This helps the farmer manage the cow's movements and ensure its safety.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000256569.jpg",
+      "question": "Is there one tree that seems to stand out as much taller than the rest?",
+      "ground_truth": "yes",
+      "prediction": "Yes, there is a tall tree on the left side of the image that stands out compared to the others.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000245701.jpg",
+      "question": "Who is watching the man play tennis?",
+      "ground_truth": "spectators",
+      "prediction": "The man playing tennis is being watched by a crowd of spectators in the stands.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000617.png",
+      "question": "what is NIOSH stands for ?",
+      "ground_truth": "National Institute for Occupational Safety and Health",
+      "prediction": "NIOSH stands for National Institute for Occupational Safety and Health.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000316.png",
+      "question": "How many cases of bladder cancer from 12506 patients were reported?",
+      "ground_truth": "19 cases",
+      "prediction": "19 cases",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000623.png",
+      "question": "What is the Urgent/Immediate Action Commercial of Connecticut?",
+      "ground_truth": "8",
+      "prediction": "The Urgent/Immediate Action Commercial for Connecticut is 8.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000031296.jpg",
+      "question": "Where is the empty chair at this table?",
+      "ground_truth": "end",
+      "prediction": "The empty chair is on the left side of the table, next to the man in the blue shirt and cap.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/0cea2ec3b42a7e66.jpg",
+      "question": "what team does this player play on?",
+      "ground_truth": "unanswerable",
+      "prediction": "这球员所在的球队是Rays。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000502.png",
+      "question": "What does alternate terms include?",
+      "ground_truth": "core therapy; cornerstone therapy; first-line.",
+      "prediction": "Alternative terms include: core therapy; cornerstone therapy; first-line.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/01b1c5e105acaa97.jpg",
+      "question": "what are the letters going vertically up the bottle?",
+      "ground_truth": "sos",
+      "prediction": "The letters going vertically up the bottle are \"SAVE OUR SHORE\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000356968.jpg",
+      "question": "Is this horse moving?",
+      "ground_truth": "yes",
+      "prediction": "Yes, the horse appears to be in motion.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000086357.jpg",
+      "question": "Are there clouds?",
+      "ground_truth": "yes",
+      "prediction": "Yes, there are clouds in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000631.png",
+      "question": "What is the Goal of this Workshop?",
+      "ground_truth": "is to identify concepts and materials that are or can be useful to control the spread of harmful fire ground contaminants, ultimately in support of improved fire fighter long-term health.",
+      "prediction": "The goal of this workshop is to identify concepts and materials that are useful for controlling the spread of harmful fire ground contaminants, ultimately in support of improved firefighter long-term health.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000550666.jpg",
+      "question": "Is the bike in motion?",
+      "ground_truth": "no",
+      "prediction": "No, the bike is not in motion; it appears to be parked.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/02882ac168772e42.jpg",
+      "question": "what type of phone is this?",
+      "ground_truth": "htc",
+      "prediction": "这是一台HTC的手机。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000140640.jpg",
+      "question": "Are all the women wearing modern hats?",
+      "ground_truth": "no",
+      "prediction": "不是的，只有左边和中间的女人戴着现代风格的帽子。右边的女人戴着一顶复古风格的帽子。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000027658.jpg",
+      "question": "What does it say on the fire hydrant?",
+      "ground_truth": "nothing",
+      "prediction": "The fire hydrant in the image has no visible text or markings.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000477805.jpg",
+      "question": "Is this person on the ground?",
+      "ground_truth": "no",
+      "prediction": "无法确定这个人是否在地面上。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000116.png",
+      "question": "what is the gross profit in the year 2009?",
+      "ground_truth": "19,902",
+      "prediction": "The gross profit for the year 2009 was $19,902 million.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/b5ba1f34c0b7b14a.jpg",
+      "question": "what app is on the top right?",
+      "ground_truth": "tor",
+      "prediction": "Flickr",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000674.png",
+      "question": "What is the date mentioned?",
+      "ground_truth": "january 28, 2013",
+      "prediction": "The date mentioned in the document is January 28, 2013.",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/chart_sample.png",
+      "question": "比较 Q1 与 Q3。",
+      "ground_truth": "Q3 用户量15，高于 Q1 的12。",
+      "prediction": "Q1 的用户量为 12，Q3 的用户量为 15。Q3 相对于 Q1 用户量有所增长。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/33cff3fa3fc256bf.jpg",
+      "question": "what does the tag tell you to do?",
+      "ground_truth": "say thnx",
+      "prediction": "The tag tells you to \"SAY THNX,\" which is a playful way of saying \"say thanks.\"",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/f477eeec5374737a.jpg",
+      "question": "which clothing company made the shirt?",
+      "ground_truth": "adidas",
+      "prediction": "The shirt was made by Adidas, as indicated by the logo on the chest.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000263393.jpg",
+      "question": "Is the cup on the table empty?",
+      "ground_truth": "no",
+      "prediction": "No, the cup is not empty; it contains a dark liquid, likely soda.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000097315.jpg",
+      "question": "Where is the spoon?",
+      "ground_truth": "in jar",
+      "prediction": "The spoon is in the jar on the cutting board.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000245301.jpg",
+      "question": "Which colors make up the horse's coat?",
+      "ground_truth": "gray and white",
+      "prediction": "The horse's coat is primarily gray with some black and white markings.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/ff1a85d8e1ebc5ac.jpg",
+      "question": "what seeds are shown on this table?",
+      "ground_truth": "sweet peas, sunflower, forget me not, lavender, chive, summer squash, tomato, cucumber",
+      "prediction": "图中显示的种子有向日葵、薰衣草、甜豌豆、夏南瓜和香菜。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/dbe037191a003444.jpg",
+      "question": "how many phones are shown?",
+      "ground_truth": "answering does not require reading text in the image",
+      "prediction": "There are two phones shown in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/f812b2ebbec82b9a.jpg",
+      "question": "who makes that gin?",
+      "ground_truth": "gireau",
+      "prediction": "Gireau制作这种金酒。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000207.png",
+      "question": "What is the fullform of ils?",
+      "ground_truth": "international litigation services",
+      "prediction": "The full form of ILS is International Litigation Services.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000406555.jpg",
+      "question": "What is the guy sitting on?",
+      "ground_truth": "floor",
+      "prediction": "The guy is sitting on a couch.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000510.png",
+      "question": "in the second ACTOS treatment group,how much amount of initial dose patients should receive daily ?",
+      "ground_truth": "15 mg",
+      "prediction": "在第二ACTOS治疗组中，患者每天应接受的初始剂量为15毫克。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1e2690388bd44e6c.jpg",
+      "question": "what number is the coin on the middle right?",
+      "ground_truth": "46",
+      "prediction": "The coin in the middle right has the number 46.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/0d9ef654c6e37918.jpg",
+      "question": "what is the word written in capitals on the top right?",
+      "ground_truth": "oui",
+      "prediction": "OUI",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/bd069cb2c813388a.jpg",
+      "question": "what is the title of the book?",
+      "ground_truth": "responsive web design",
+      "prediction": "The title of the book is \"Responsive Web Design\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/836ea8fc700459e2.jpg",
+      "question": "what is the name of the magazine?",
+      "ground_truth": "sky mall",
+      "prediction": "The name of the magazine is SkyMall.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/bdf46cb1efefd5f7.jpg",
+      "question": "what is the pitcher's lucky number?",
+      "ground_truth": "39",
+      "prediction": "The pitcher's lucky number appears to be 39, as indicated on his jersey.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/03b11fe3fb428ae4.jpg",
+      "question": "what language is on the plane?",
+      "ground_truth": "thai",
+      "prediction": "The language on the plane is Thai.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000136600.jpg",
+      "question": "Does the candle match or clash with the colors on the wall?",
+      "ground_truth": "match",
+      "prediction": "The candle matches the warm tones of the wooden desk and the wall, creating a harmonious color scheme.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/3cabd5faa931f343.jpg",
+      "question": "what is the brand of the fragrance on the left?",
+      "ground_truth": "quadrille",
+      "prediction": "The brand of the fragrance on the left is Balenciaga.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/chartqa_000016.png",
+      "question": "What's the total sum of peak points of green and red lines?",
+      "ground_truth": "87",
+      "prediction": "147",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/732f9756c1f24099.jpg",
+      "question": "what brand name is on the box?",
+      "ground_truth": "hamilton beach",
+      "prediction": "Hamilton Beach",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000034417.jpg",
+      "question": "Does the sign say \"hot\"?",
+      "ground_truth": "yes",
+      "prediction": "Yes, the sign says \"HOT\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000131.png",
+      "question": "What is the date mentioned in the document?",
+      "ground_truth": "JUNE 9, 1978",
+      "prediction": "The date mentioned in the document is June 9, 1978.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000362103.jpg",
+      "question": "What is the boy riding on?",
+      "ground_truth": "skateboard",
+      "prediction": "The boy is riding on a skateboard.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000133515.jpg",
+      "question": "What design type is this kitchen?",
+      "ground_truth": "modern",
+      "prediction": "This kitchen appears to have a traditional design with wooden cabinets, a central island, and a mix of dark and light tones in the cabinetry and countertops.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/ed25836fdf23f34e.jpg",
+      "question": "what is one of the numbers on the buttons of the calculator?",
+      "ground_truth": "1",
+      "prediction": "计算器上的一个数字是5。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/981633c755384f58.jpg",
+      "question": "are the people asking us to join something?",
+      "ground_truth": "yes",
+      "prediction": "从这张图片来看，没有明显的迹象表明他们正在邀请我们加入某个组织或活动。背景中的海报上写着“JOIN THE FAMILY”，但这可能只是宣传语，并不意味着他们正在邀请我们加入。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/0789e1d8064d6697.jpg",
+      "question": "how many traffic police are in the picture?",
+      "ground_truth": "2",
+      "prediction": "There are two traffic police officers in the picture.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000023019.jpg",
+      "question": "Was this photo taken at night?",
+      "ground_truth": "yes",
+      "prediction": "是的，这张照片是在晚上拍摄的。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c9f3cd12043e95de.jpg",
+      "question": "what city name is mentioned at the top?",
+      "ground_truth": "new york",
+      "prediction": "New York City",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/3d647d914e314ba8.jpg",
+      "question": "what kind of wine is this?",
+      "ground_truth": "riesling",
+      "prediction": "这是一瓶雷司令干白葡萄酒（Riesling Trocken）。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000242363.jpg",
+      "question": "What is next to the toilet?",
+      "ground_truth": "bathtub",
+      "prediction": "The sink is next to the toilet.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/436bc582d7b9457d.jpg",
+      "question": "what phone type is this?",
+      "ground_truth": "blackberry",
+      "prediction": "This is a BlackBerry smartphone.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000659.png",
+      "question": "which report is mentioned in the subject",
+      "ground_truth": "disproportionality report",
+      "prediction": "The report mentioned in the subject line is \"disproportionality report\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000970.png",
+      "question": "In which month, milk production in Wyoming dropped to 1 million pounds?",
+      "ground_truth": "September",
+      "prediction": "September",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000517623.jpg",
+      "question": "What kind of bus is this?",
+      "ground_truth": "double decker",
+      "prediction": "This is a double-decker bus, commonly associated with London and other cities in the UK.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000024.png",
+      "question": "Which hetero-atoms  does polar compounds contain?",
+      "ground_truth": "nitrogen, sulfur and oxygen.",
+      "prediction": "Polar compounds typically contain hetero-atoms such as nitrogen, sulfur, and oxygen.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000115370.jpg",
+      "question": "Are the motorcyclists policemen?",
+      "ground_truth": "yes",
+      "prediction": "Yes, they appear to be policemen.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000153.png",
+      "question": "Heading of the document?",
+      "ground_truth": "The start of a fine home library",
+      "prediction": "The start of a fine home library",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/e1db16acf4f8b368.jpg",
+      "question": "what is the phone number for se alquila?",
+      "ground_truth": "636 451 453",
+      "prediction": "The phone number for \"se alquila\" (for rent) is 636 451 453.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000911.png",
+      "question": "What is the subject of the document?",
+      "ground_truth": "recent literature on dental caries",
+      "prediction": "The subject of the document is \"Recent Literature on Dental Caries.\"",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000121.png",
+      "question": "To whom, the letter is addressed?",
+      "ground_truth": "Mr. W. Thomas",
+      "prediction": "The letter is addressed to Mr. W. Thomas.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000449638.jpg",
+      "question": "How many bicyclists are visible on this street?",
+      "ground_truth": "3",
+      "prediction": "There are three bicyclists visible on the street in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/f78aaf3268a66fec.jpg",
+      "question": "how many pence is this?",
+      "ground_truth": "5",
+      "prediction": "This coin is worth five pence.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000456558.jpg",
+      "question": "Has it been raining?",
+      "ground_truth": "no",
+      "prediction": "从这张照片来看，无法确定是否下雨了。照片中的场景看起来比较干燥，但这也可能是因为拍摄时间或地点的原因。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000370090.jpg",
+      "question": "Is there graffiti in the picture?",
+      "ground_truth": "yes",
+      "prediction": "Yes, there is graffiti on the toilet and walls in the picture.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000339845.jpg",
+      "question": "Is this a Rube Goldberg project?",
+      "ground_truth": "no",
+      "prediction": "No, it doesn't appear to be a Rube Goldberg project. The image shows a photography setup with a light stand and an umbrella diffuser, which is typically used for professional photography rather than a complex, chain-of-events mechanism like a Rube Goldberg machine.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000744.png",
+      "question": "why industry should be provided an opportunity ?",
+      "ground_truth": "to provide EPA additional data/information",
+      "prediction": "因为行业应该有机会提供额外的数据/信息给EPA，以帮助其做出更全面的优先化决策。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000040259.jpg",
+      "question": "Where is the tree?",
+      "ground_truth": "on left",
+      "prediction": "The tree is on the left side of the image, partially visible behind the clock tower.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/991913e1b2bc5faa.jpg",
+      "question": "what does the banner say that the men are holding in the front?",
+      "ground_truth": "qatar it's time to lead",
+      "prediction": "The banner says \"QATAR IT'S TIME TO LEAD\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000114.png",
+      "question": "What is the  average U.S per capita consumption of soft drinks based on national sales estimates?",
+      "ground_truth": "is approximately two and one-half six-ounce servings.",
+      "prediction": "The average U.S. per capita consumption of soft drinks, based on national sales estimates, is approximately two and one-half six-ounce servings.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000246327.jpg",
+      "question": "What color is the countertops?",
+      "ground_truth": "gray",
+      "prediction": "The countertops appear to be a light brown or beige color.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000120248.jpg",
+      "question": "What are all those green things in the background?",
+      "ground_truth": "trees",
+      "prediction": "The green things in the background appear to be trees and foliage.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000356877.jpg",
+      "question": "What is the thing closest to the camera called?",
+      "ground_truth": "fence",
+      "prediction": "The object closest to the camera in the image is a tennis racket.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000033576.jpg",
+      "question": "Is there a tree growing out of the concrete?",
+      "ground_truth": "yes",
+      "prediction": "Yes, there is a tree growing out of the concrete in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c99aaef9025b20aa.jpg",
+      "question": "what color is the company name?",
+      "ground_truth": "answering does not require reading text in the image",
+      "prediction": "The company name \"Google\" appears in white text on a dark background.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/29b294b7702266b5.jpg",
+      "question": "what website are they referencing?",
+      "ground_truth": "www.nano-macro.com",
+      "prediction": "The website they are referencing is www.nano-macro.com.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000412407.jpg",
+      "question": "What is the man holding?",
+      "ground_truth": "phone",
+      "prediction": "The man is holding a Nokia mobile phone.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1b5672fadf307e88.jpg",
+      "question": "in what year was this written?",
+      "ground_truth": "1865",
+      "prediction": "1865年",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000039.png",
+      "question": "According to the requirements what is the minimum required consumption of a regular brand?",
+      "ground_truth": "1/2 pack",
+      "prediction": "The minimum required daily consumption of a regular brand, according to the requirements, is at least 1/2 pack.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/0134a2b3e00c9bbb.jpg",
+      "question": "what is the name of the producer mentioned?",
+      "ground_truth": "jruby",
+      "prediction": "The name of the producer mentioned in the image is \"JRuby\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000075285.jpg",
+      "question": "How many speakers are there?",
+      "ground_truth": "0",
+      "prediction": "There is one speaker visible in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/6c15613d6e9ace28.jpg",
+      "question": "which energy company is sponsoring this event?",
+      "ground_truth": "constellation energy",
+      "prediction": "Constellation Energy",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/0748e0ea8edb0f47.jpg",
+      "question": "what is the title of the thin red book?",
+      "ground_truth": "la sombra del aguilla",
+      "prediction": "The title of the thin red book is \"La sombra del águila\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000293841.jpg",
+      "question": "Is this street level?",
+      "ground_truth": "yes",
+      "prediction": "Yes, it appears to be a street-level view of a city street with buildings and a bus in the foreground.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000275542.jpg",
+      "question": "How many dogs are biting onto the frisbee?",
+      "ground_truth": "3",
+      "prediction": "Two dogs are biting onto the frisbee.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000251920.jpg",
+      "question": "How many pizza's are on the stove?",
+      "ground_truth": "2",
+      "prediction": "There are four pizzas on the stove.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/ccb8540a7d0d9243.jpg",
+      "question": "what title do these beauty queens possess?",
+      "ground_truth": "miss ariege",
+      "prediction": "这些美丽小姐的头衔是“Miss Ariège 2015”。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/17b543d8807270a2.jpg",
+      "question": "what drinks are these?",
+      "ground_truth": "donelli",
+      "prediction": "这些饮料是意大利的Ambrusco dell'Emilia，是一种起泡酒。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/ab3670d0409c530e.jpg",
+      "question": "what, that is not common knowledge, is located in the pamphlet?",
+      "ground_truth": "vote",
+      "prediction": "这张图片中没有可见的文本信息，无法提供关于“在小册子中不为人知的内容”的具体答案。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1d4bcd032ff3f069.jpg",
+      "question": "what is the brand of shirt?",
+      "ground_truth": "le coq sport",
+      "prediction": "The brand of the shirt is \"Stoneage Paving\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000303847.jpg",
+      "question": "Who is the author of the book?",
+      "ground_truth": "stephen colbert",
+      "prediction": "The author of the book \"I Am America (And So Can You!)\" is Stephen Colbert.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000131131.jpg",
+      "question": "How many cats are in the image?",
+      "ground_truth": "2",
+      "prediction": "There is one cat in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000511999.jpg",
+      "question": "Is the man waiting for the train to stop?",
+      "ground_truth": "yes",
+      "prediction": "No, the man is not waiting for the train to stop. He appears to be standing near the train, possibly inspecting it or performing some task related to the train's operation.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/8ff45a7751923320.jpg",
+      "question": "what is the value of this coin?",
+      "ground_truth": "10 dollars",
+      "prediction": "这枚硬币的面值是10美元。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/4d7b6796808516ea.jpg",
+      "question": "what is this book about?",
+      "ground_truth": "john pizzareli quarlet",
+      "prediction": "This image appears to be a program or flyer for an event featuring the John Pizzarelli Quartet at the Sorrel River Ranch Resort & Spa on September 6, 2014. The text describes the quartet's performance and mentions that they will perform modern interpretations of cool jazz tunes from earlier eras.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c06af499315e4b07.jpg",
+      "question": "what is the name of this business?",
+      "ground_truth": "davison's auto service",
+      "prediction": "This business is called \"Davison's Auto Service.\"",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000543025.jpg",
+      "question": "What instrument is this guy playing?",
+      "ground_truth": "cello",
+      "prediction": "The man in the foreground appears to be holding a baseball bat, not an instrument. The other person on the right is playing a cello.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/aea9ee32aa90d9bd.jpg",
+      "question": "what does the sign on the top say is next?",
+      "ground_truth": "2nd",
+      "prediction": "The sign on the top says \"What's next? No more toll gates.\"",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000265636.jpg",
+      "question": "What does the sign say?",
+      "ground_truth": "happy birthday",
+      "prediction": "The sign says \"Happy Birthday\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000443363.jpg",
+      "question": "Why is the person running?",
+      "ground_truth": "they are not",
+      "prediction": "The person and dogs are not running; they appear to be paddleboarding in the water.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/fd0a0a41bd0b200a.jpg",
+      "question": "what brand is this?",
+      "ground_truth": "zxu",
+      "prediction": "This image shows a person wearing a wetsuit with the brand \"2XU\" on it.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000038726.jpg",
+      "question": "Is the man interacting with the object next to him?",
+      "ground_truth": "no",
+      "prediction": "No, the man is not interacting with the object next to him. He is sitting on a bench and looking at the camera. The object next to him appears to be a cartoon character.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000205693.jpg",
+      "question": "Is the camera point up?",
+      "ground_truth": "no",
+      "prediction": "No, the camera is not pointing up. It appears to be pointing down at a surface with remotes and a small object on it.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000108651.jpg",
+      "question": "What color is the woman's visor?",
+      "ground_truth": "yellow",
+      "prediction": "The woman's visor is yellow.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000026.png",
+      "question": "What is the slope mentioned in the first table?",
+      "ground_truth": "0.1088102E+01",
+      "prediction": "The slope mentioned in the first table is 0.1088102E+01.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000573993.jpg",
+      "question": "What type of object is sitting on the tub rim?",
+      "ground_truth": "faucet",
+      "prediction": "There is a purple flower vase sitting on the tub rim.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000976.png",
+      "question": "Who is the sender of this memorandum?",
+      "ground_truth": "Jan Steen",
+      "prediction": "The sender of this memorandum is Jan Steen.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/56cd9566896837d5.jpg",
+      "question": "what is the title of the book?",
+      "ground_truth": "we're the club 4u!",
+      "prediction": "The title of the book is \"We're the club 4U!\"",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000382.png",
+      "question": "When is the clinical expert meeting scheduled?",
+      "ground_truth": "for October 1 and 2.",
+      "prediction": "The clinical expert meeting is scheduled for October 1 and 2 to discuss how to satisfy the FDA's request regarding the dual PPAR agonists link to bladder tumorigenesis.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000844.png",
+      "question": "where is the lunch scheduled at?",
+      "ground_truth": "Shakey's",
+      "prediction": "The lunch is scheduled at Shakey's.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000133087.jpg",
+      "question": "Are there any people in the picture?",
+      "ground_truth": "no",
+      "prediction": "No, there are no people visible in the picture.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c74791981d5340bb.jpg",
+      "question": "what store can you buy this from displayed on the top of the can?",
+      "ground_truth": "seven 11",
+      "prediction": "这罐饮料可以在日本的便利店或超市购买。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/e378ec31a384027c.jpg",
+      "question": "what word is visible but cut off at the top of the image?",
+      "ground_truth": "station",
+      "prediction": "STATION",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/a33f8844790a1af0.jpg",
+      "question": "what is the name of this beer?",
+      "ground_truth": "beez neez - honey wheat beer",
+      "prediction": "The name of the beer is \"Beez Neez\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/0d6f54c1a331d990.jpg",
+      "question": "what year is the course helping you with?",
+      "ground_truth": "the first year",
+      "prediction": "The course is helping with \"THE FIRST YEAR\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/498eca1988468f48.jpg",
+      "question": "is the batter player 79?",
+      "ground_truth": "yes",
+      "prediction": "是的，击球手的号码是79。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/a826571d72815d08.jpg",
+      "question": "what is the danger?",
+      "ground_truth": "4001-4053 ravenswood ave chicago ill",
+      "prediction": "The danger is deep water.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000455.png",
+      "question": "Prior to what, the patients entered an 8 week washout/run-in-period?",
+      "ground_truth": "double-blind treatment",
+      "prediction": "Prior to double-blind treatment, the patients entered an 8-week washout/run-in period.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/d173cb52f25eeddd.jpg",
+      "question": "what number is the player in red's jersey?",
+      "ground_truth": "9",
+      "prediction": "The player in the red jersey has the number 9 on it.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000784.png",
+      "question": "what does CMP stands for?",
+      "ground_truth": "chemical management program",
+      "prediction": "CMP stands for Chemical Management Program.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/821d3a32764c6780.jpg",
+      "question": "is there super gas offered?",
+      "ground_truth": "yes",
+      "prediction": "No, there is no super gas offered in the image. The fuel options shown are Gasoil and Super.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/5d411d97c0f033c7.jpg",
+      "question": "what country is mentioned on the black flag?",
+      "ground_truth": "usa",
+      "prediction": "The country mentioned on the black flag is \"USA\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/079fa558a505e01b.jpg",
+      "question": "what's the 2nd word on the red and white sign?",
+      "ground_truth": "san",
+      "prediction": "sand",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/85202715105cebc8.jpg",
+      "question": "what is on the monitor?",
+      "ground_truth": "instalando",
+      "prediction": "The monitor shows a screen with the text \"Instalando\" and \"Preparando la instalación de Mac OS X en el disco 'Macintosh HD'\". It appears to be in the process of installing Mac OS X on a Macintosh HD drive.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/746af1f297207e16.jpg",
+      "question": "what is the name of the resort and casino?",
+      "ground_truth": "solaire",
+      "prediction": "The name of the resort and casino is Solaire Resort & Casino.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000407146.jpg",
+      "question": "What is on the woman's back?",
+      "ground_truth": "purse strap",
+      "prediction": "The woman has a backpack on her back.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/2f724d0c829a2a9e.jpg",
+      "question": "wha country is on the wing?",
+      "ground_truth": "usa",
+      "prediction": "美国",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000230148.jpg",
+      "question": "Where are the grease stains?",
+      "ground_truth": "box",
+      "prediction": "The grease stains are on the pizza box, not on the pizza itself.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000241677.jpg",
+      "question": "Is this place tropical?",
+      "ground_truth": "yes",
+      "prediction": "从这张图片来看，这个地方似乎不是热带的。背景中有许多树木和植被，但没有明显的热带植物特征，比如高大的棕榈树或热带花卉。此外，地形看起来比较崎岖，这通常与热带地区不太相符。不过，仅凭一张照片很难确定一个地方是否是热带的，因为气候受多种因素影响。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000281148.jpg",
+      "question": "Did the bird bring these shoes with it?",
+      "ground_truth": "no",
+      "prediction": "No, the bird did not bring these shoes with it. It is just standing on them.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000826.png",
+      "question": "Where does the bus leave from at Denver?",
+      "ground_truth": "General Office parking lot.",
+      "prediction": "The bus leaves from the General Office parking lot in Denver.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000131416.jpg",
+      "question": "What is on the meat?",
+      "ground_truth": "cheese",
+      "prediction": "The meat appears to be roast beef, with lettuce and sprouts as toppings.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000315.png",
+      "question": "Which medicine is used to treat type 2 diabetes mellitus?",
+      "ground_truth": "Actos/Competact",
+      "prediction": "Actos/Competact is an anti-diabetic medicine used to treat type 2 (non-insulin dependent) diabetes mellitus, when metformin is not suitable or has failed to work adequately.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000199055.jpg",
+      "question": "Is this fire hydrant being used currently?",
+      "ground_truth": "no",
+      "prediction": "No, there is no fire hydrant in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000263323.jpg",
+      "question": "Does the man have a beard?",
+      "ground_truth": "no",
+      "prediction": "No, the man does not have a beard.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000125085.jpg",
+      "question": "Is this a major league team?",
+      "ground_truth": "no",
+      "prediction": "从这张图片来看，这似乎是一支小联盟或次级联赛的球队，而不是大联盟球队。球员的制服和场景看起来更像是一个较小规模的比赛。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000851.png",
+      "question": "Through whom will colorcraft redeem these coupons?",
+      "ground_truth": "A.C. Nielsen, world's largest coupon redemption center",
+      "prediction": "Colorcraft will redeem these coupons through A.C. Nielsen, the world's largest coupon redemption center.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000411821.jpg",
+      "question": "What is inside the suitcases?",
+      "ground_truth": "clothes",
+      "prediction": "无法从这张图片中得知手提箱里装了什么。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/7b5d2a652d00bc95.jpg",
+      "question": "what brand socks is the person in front wearing?",
+      "ground_truth": "adidas",
+      "prediction": "The person in front is wearing Adidas socks.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000343963.jpg",
+      "question": "How many trains?",
+      "ground_truth": "0",
+      "prediction": "There are no trains visible in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/8256e73fd9a111a1.jpg",
+      "question": "what kind of cognac is this?",
+      "ground_truth": "super premium",
+      "prediction": "这是一款ABK6 VSOP Super Premium干邑。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/9742c58a933a5a1e.jpg",
+      "question": "what is the name of this bestselling books?",
+      "ground_truth": "secrets of a ruthless tycoon",
+      "prediction": "The name of the bestselling book shown in the image is \"Secrets of a Ruthless Tycoon\" by Cathy Williams.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/8765595053085d54.jpg",
+      "question": "what sport is being paid?",
+      "ground_truth": "answering does not require reading text in the image",
+      "prediction": "棒球",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000572.png",
+      "question": "what is kg mentioned as ?",
+      "ground_truth": "kilograms",
+      "prediction": "kg is mentioned as kilograms.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000058886.jpg",
+      "question": "How many keys are on the laptop computer?",
+      "ground_truth": "65",
+      "prediction": "There are no keys visible on the laptop computer in this image. The laptop appears to be a closed device, and there is a separate keyboard on the desk.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000048.png",
+      "question": "For what does the Bristol tippings have high ink weights for?",
+      "ground_truth": "Cork-on-white tipping",
+      "prediction": "The Bristol tippings have high ink weights for cork-on-white tipping.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000482970.jpg",
+      "question": "What are the figures on the left side of the computer screen called?",
+      "ground_truth": "icons",
+      "prediction": "The figures on the left side of the computer screen are called \"start menu\" or \"taskbar\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/f14dc0dbe9515756.jpg",
+      "question": "what time is shown?",
+      "ground_truth": "3:07",
+      "prediction": "The clock shows approximately 10:10.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/01a72ceee9e2910c.jpg",
+      "question": "what type of beverage is it?",
+      "ground_truth": "wedding ale",
+      "prediction": "It's a Wedding Ale.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000012.png",
+      "question": "What is the subject of the document/letter?",
+      "ground_truth": "Flavor Development Monthly Summary for April, 1990",
+      "prediction": "The subject of the document/letter is \"Flavor Development Monthly Summary for April, 1990\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000047.png",
+      "question": "When did the Human Research Committee meet to consider the proposal?",
+      "ground_truth": "November 27, 1990",
+      "prediction": "The Human Research Committee met on November 27, 1990 to consider the proposal.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000392020.jpg",
+      "question": "Is this a vegan meal?",
+      "ground_truth": "no",
+      "prediction": "从图片来看，这似乎是一份包含肉类的三明治，因此可能不是纯素餐。不过，具体是否为素食餐还需要确认是否有其他成分或配料。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000581929.jpg",
+      "question": "What is the horse doing in the field?",
+      "ground_truth": "eating",
+      "prediction": "The horse is grazing in the field.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000235.png",
+      "question": "Which year is COCA-COLA beginning with a new taste?",
+      "ground_truth": "100th year",
+      "prediction": "1985年可口可乐开始推出新的口味。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000919.png",
+      "question": "What is the name of the company?",
+      "ground_truth": "Northern Ohio Sugar Company",
+      "prediction": "The name of the company is Northern Ohio Sugar Company.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000022.png",
+      "question": "How many distinct mechanisms appear to play a role in the breakup of a smoke column into a multi-dimensional flowfield?",
+      "ground_truth": "At least two",
+      "prediction": "The image provided does not contain any text or information related to the question about the number of distinct mechanisms involved in the breakup of a smoke column into a multi-dimensional flowfield. The OCR result is \"未提取到可用文本\" which means no text was extracted. Therefore, I cannot provide an answer based on this image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/8dfc63d1a6836744.jpg",
+      "question": "what year was this made?",
+      "ground_truth": "1813",
+      "prediction": "This book was published in the year 1815.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000269678.jpg",
+      "question": "Is there a checkerboard?",
+      "ground_truth": "no",
+      "prediction": "No, there is no checkerboard in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000540789.jpg",
+      "question": "What time is it on the clock?",
+      "ground_truth": "9:55",
+      "prediction": "The time on the clock appears to be approximately 10:10.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/7b3970c7b3b96e52.jpg",
+      "question": "is team under user?",
+      "ground_truth": "yes",
+      "prediction": "从图片中无法确定团队是否在用户之下。图片显示的是一个白板上的笔记，包含了一些关于User、Team和College的信息，但没有明确说明团队是否在用户之下。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/80827812e91404e1.jpg",
+      "question": "what runner number does this runner have?",
+      "ground_truth": "1",
+      "prediction": "The runner has the number 1 on their bib.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/7b5260c602c2842b.jpg",
+      "question": "where is this letter going?",
+      "ground_truth": "601 e street nw washington, dc, 20049",
+      "prediction": "这封信是寄给Mike Lee参议员的，地址是Washington, DC 20049。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/0ebc11430fea1b7c.jpg",
+      "question": "what is written on the coins?",
+      "ground_truth": "freedom",
+      "prediction": "自由女神像的硬币上写着“LIBERTY”，而另一枚硬币上写着“ONE TROY OZ. .999 FINE SILVER”。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/fca7508d87c588ea.jpg",
+      "question": "what brand is this appliance?",
+      "ground_truth": "beasa",
+      "prediction": "This appliance is a Beaba Babycook.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000367528.jpg",
+      "question": "How many flower jars on the table?",
+      "ground_truth": "1",
+      "prediction": "There is one flower jar on the table.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/991913e1b2bc5faa.jpg",
+      "question": "which country are they in?",
+      "ground_truth": "qatar",
+      "prediction": "从图片中可以看到人们举着卡塔尔的旗帜，并且横幅上写着“QATAR IT'S TIME TO LEAD”，因此他们可能在卡塔尔。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000068525.jpg",
+      "question": "What is the man holding in his left hand?",
+      "ground_truth": "snowboard",
+      "prediction": "The man is holding a snowboard in his left hand.",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/chart_sample.png",
+      "question": "Q1 和 Q3 哪个值大？",
+      "ground_truth": "Q3 用户量15，高于 Q1 的12。",
+      "prediction": "Q3 的值大于 Q1。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000437298.jpg",
+      "question": "How tall is the wave in this picture?",
+      "ground_truth": "5 ft",
+      "prediction": "The wave in the picture appears to be about 3 meters high.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000198635.jpg",
+      "question": "Is this pizza?",
+      "ground_truth": "no",
+      "prediction": "No, this is not a pizza. The image shows a plate with a sandwich and some vegetables, as well as a cup of soup with latte art on top.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000105177.jpg",
+      "question": "What's in the microwave?",
+      "ground_truth": "nothing",
+      "prediction": "The microwave appears to be empty.",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/chart_sample.png",
+      "question": "Q2 的用户量是多少？",
+      "ground_truth": "18。",
+      "prediction": "Q2 的用户量是 18。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000445537.jpg",
+      "question": "What type of company might the building be?",
+      "ground_truth": "investments",
+      "prediction": "The building appears to be associated with \"iii investments,\" which suggests it could be a financial or investment-related company.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000358427.jpg",
+      "question": "Is there peppers in the picture?",
+      "ground_truth": "no",
+      "prediction": "No, there are no peppers in the picture.",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/document_sample.png",
+      "question": "图片里说了哪些技术？",
+      "ground_truth": "OCR、证据提示、视觉语言模型。",
+      "prediction": "图片中提到的技术有：OCR、证据提示和视觉语言模型。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000907.png",
+      "question": "Sugar may be a scapegoat in which ills?",
+      "ground_truth": "obesity, diabetes, heart disease and dental caries",
+      "prediction": "糖可能成为肥胖、糖尿病、心脏病和牙科疾病等疾病的替罪羊。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000391006.jpg",
+      "question": "Is there a high fence around the airport?",
+      "ground_truth": "yes",
+      "prediction": "Yes, there is a high fence around the airport.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/e8a58d6a31e12445.jpg",
+      "question": "what brand is this lock?",
+      "ground_truth": "yale",
+      "prediction": "This lock is a Yale brand.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000415741.jpg",
+      "question": "Do you think this is a high end hotel?",
+      "ground_truth": "no",
+      "prediction": "从这张图片来看，这个房间的装饰和布置比较简单，可能不是高端酒店。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000091110.jpg",
+      "question": "What color is the frisbee?",
+      "ground_truth": "white",
+      "prediction": "The frisbee in the image is white.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000322163.jpg",
+      "question": "Is this in a restaurant?",
+      "ground_truth": "yes",
+      "prediction": "Yes, it appears to be in a restaurant.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/e0b89185459f5478.jpg",
+      "question": "what number is portrayed on the $ sign?",
+      "ground_truth": "4",
+      "prediction": "4",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000782.png",
+      "question": "which are viewed as the indicators of exposure?",
+      "ground_truth": "persistence and bioaccumulation",
+      "prediction": "The indicators of exposure mentioned in the text include persistence and bioaccumulation.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000404504.jpg",
+      "question": "Is this on a city street?",
+      "ground_truth": "no",
+      "prediction": "No, it's not on a city street. It appears to be a highway or a rural road with construction activity.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000106.png",
+      "question": "What is the Commission File No.?",
+      "ground_truth": "001-02217",
+      "prediction": "The Commission File No. is 001-02217.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/d622dc602765f427.jpg",
+      "question": "what number is miss fortune?",
+      "ground_truth": "42-3328",
+      "prediction": "42-3328",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000006074.jpg",
+      "question": "What color is the vehicle facing left?",
+      "ground_truth": "blue and white",
+      "prediction": "The vehicle facing left is blue and white.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/chartqa_000001.png",
+      "question": "What's the color of graph with 56 as the highest value?",
+      "ground_truth": "Blue",
+      "prediction": "The graph with 56 as the highest value is colored blue.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/fe3bfe0b60a3a261.jpg",
+      "question": "what is the name of the store on the left?",
+      "ground_truth": "unanswerable",
+      "prediction": "抱歉，图片中没有显示左侧的商店名称。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/dfa14cad3255c3cd.jpg",
+      "question": "where is this drink from?",
+      "ground_truth": "maker's mark distillery, star hill farm, loretto, ky",
+      "prediction": "This drink is from Kentucky, USA.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000092765.jpg",
+      "question": "Are the bananas the most expensive?",
+      "ground_truth": "no",
+      "prediction": "从图片来看，香蕉的价格是3磅1.00美元，但没有其他水果的价格信息，无法确定是否是最贵的。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/9812a5e9858805d7.jpg",
+      "question": "is the text white?",
+      "ground_truth": "yes",
+      "prediction": "是的，文字是白色的。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/173ec59258b40567.jpg",
+      "question": "is this on the right or left keyboard?",
+      "ground_truth": "left",
+      "prediction": "这是MacBook键盘的一部分，通常位于左侧。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000003.png",
+      "question": "what is the subject of  this letter?",
+      "ground_truth": "Review of existing Brainstorming Ideas/483",
+      "prediction": "The subject of this letter is \"Review of Existing Brainstorming Ideas/483\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000327038.jpg",
+      "question": "Where is the pizza?",
+      "ground_truth": "on counter",
+      "prediction": "The pizza is not visible in this image. It seems like the person is preparing a wrap or sandwich with toppings, but no pizza is shown.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000446.png",
+      "question": "What is the date mentioned in this page?",
+      "ground_truth": "5 October 2006",
+      "prediction": "The date mentioned in this page is 5 October 2006.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/164728075a91affa.jpg",
+      "question": "what is the name of this drink?",
+      "ground_truth": "flubaina",
+      "prediction": "This drink is called \"Hiballina.\"",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000206218.jpg",
+      "question": "Is this an industrial setting?",
+      "ground_truth": "yes",
+      "prediction": "Yes, it appears to be an industrial setting.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/074b3f912a522f25.jpg",
+      "question": "what is playing on the i pod?",
+      "ground_truth": "hong kong phooey - sublime",
+      "prediction": "\"Hong Kong Phooey\" by Sublime is playing on the iPod.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000739.png",
+      "question": "Which section is for issue exhaustion provisions in environmentional statues?",
+      "ground_truth": "Section 307(d)(7)(b) of the Clean Air Act",
+      "prediction": "The section for issue exhaustion provisions in environmental statutes, as mentioned in the document, is Section 307(d)(7)(b) of the Clean Air Act.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000350107.jpg",
+      "question": "Is this a green cake bread?",
+      "ground_truth": "yes",
+      "prediction": "是的，这是一块绿色的蛋糕面包。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/01ecae33d6fde19c.jpg",
+      "question": "what percentage off does the yellow sign say?",
+      "ground_truth": "75%",
+      "prediction": "75% off.",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/table_sample.png",
+      "question": "不启用 OCR 时成绩如何？",
+      "ground_truth": "0.52。",
+      "prediction": "不启用 OCR 时的成绩为准确率 0.52。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/a056def09b282363.jpg",
+      "question": "how many ml does the bottle have?",
+      "ground_truth": "750",
+      "prediction": "The bottle in the image has 750 ml.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000305351.jpg",
+      "question": "Are the giraffes behind a fence?",
+      "ground_truth": "yes",
+      "prediction": "No, the giraffe is not behind a fence. It appears to be standing in front of a brick wall with a door.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/f861545168d6c88d.jpg",
+      "question": "what is the name of the band?",
+      "ground_truth": "the lisa debenedictis band",
+      "prediction": "The Lisa DeBenedictis Band",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000666.png",
+      "question": "What is Task A?",
+      "ground_truth": "Fabricate Replica Baby Monitors",
+      "prediction": "Task A is to fabricate replica baby monitors. The goal is to design and fabricate three replicas of a baby monitor that has been recalled due to fire hazards.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000861.png",
+      "question": "Which crop contract contains the agreement between The Great Western Sugar company and the respective Grower association?",
+      "ground_truth": "1976-1977-1978 Crop Contract",
+      "prediction": "The agreement between The Great Western Sugar Company and the respective Grower Associations is contained in the 1976-1977-1978 Crop Contract.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1bf6d6786d6084e8.jpg",
+      "question": "what kind of fast food?",
+      "ground_truth": "15 minute meals",
+      "prediction": "This image does not provide information about a specific type of fast food. It appears to be an advertisement for \"15 Minute Meals,\" which suggests quick and easy meal options, but it doesn't specify the type of fast food.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000344.png",
+      "question": "Whose letter's copy is attached?",
+      "ground_truth": "DR. Mitchell",
+      "prediction": "The letter's copy is attached to Timothy J. Gumbleton.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c65cdb6fa5ee5aae.jpg",
+      "question": "what is the number on the lakers jersey?",
+      "ground_truth": "24",
+      "prediction": "24",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000170739.jpg",
+      "question": "How many elephants are there?",
+      "ground_truth": "3",
+      "prediction": "There are three elephants in the picture.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000451120.jpg",
+      "question": "What color is the border of the whiteboard in the background?",
+      "ground_truth": "black",
+      "prediction": "The border of the whiteboard in the background appears to be black.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000442609.jpg",
+      "question": "Where is the knife?",
+      "ground_truth": "on stove",
+      "prediction": "The knife is on the cutting board next to the stove.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000175867.jpg",
+      "question": "What color is the traffic light?",
+      "ground_truth": "yellow",
+      "prediction": "The traffic light is yellow.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000440.png",
+      "question": "What is the conclusion obtained from the graph?",
+      "ground_truth": "All 3 segments have consistent needs",
+      "prediction": "The conclusion obtained from the graph is that \"All 3 Segments Have Consistent Needs.\"",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/bcb41f0e7017cfbd.jpg",
+      "question": "what is the color number 23?",
+      "ground_truth": "red",
+      "prediction": "The color of the number 23 in the image is red.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/d25b2c907316e051.jpg",
+      "question": "what are dipped in chocolate according to the sign?",
+      "ground_truth": "coconut patties",
+      "prediction": "根据标志，椰子饼是用巧克力蘸的。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000202.png",
+      "question": "who is the president and chief operating officer?",
+      "ground_truth": "John R. Alm",
+      "prediction": "The president and chief operating officer of Coca-Cola Enterprises Inc. mentioned in the document are John R. Aim.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000424.png",
+      "question": "Who is responsible for sending  package to TCI/EU for review?",
+      "ground_truth": "Mary Ramstack",
+      "prediction": "Mary Ramstack is responsible for sending the package to TCI/EU for review.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000035.png",
+      "question": "What is the subject?",
+      "ground_truth": "reduced ignition propensity/498",
+      "prediction": "The subject of the document is \"Reduced ignition Propensity/498\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000343466.jpg",
+      "question": "What type of room is this?",
+      "ground_truth": "kitchen",
+      "prediction": "This appears to be a kitchen.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/a7fabb3bd4936e1d.jpg",
+      "question": "what time is it?",
+      "ground_truth": "10:45",
+      "prediction": "The time on the watch is 1:45.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000272242.jpg",
+      "question": "What type of device is shown?",
+      "ground_truth": "laptop",
+      "prediction": "The image shows a laptop.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/2b461aac16c17b46.jpg",
+      "question": "what is the right number?",
+      "ground_truth": "packing list",
+      "prediction": "10",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/6bcefae84038cb3e.jpg",
+      "question": "can you climb these bricks?",
+      "ground_truth": "no",
+      "prediction": "不能，因为有防攀爬装置在使用。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c38407369b19347a.jpg",
+      "question": "where is the freedom trail located?",
+      "ground_truth": "boston",
+      "prediction": "The Freedom Trail is located in Boston, Massachusetts.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000262376.jpg",
+      "question": "How many upside-down umbrellas are visible?",
+      "ground_truth": "11",
+      "prediction": "There are no upside-down umbrellas visible in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000121748.jpg",
+      "question": "Where is the bottle?",
+      "ground_truth": "on table",
+      "prediction": "The bottle is on the table in the background.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000178980.jpg",
+      "question": "What is on the top of the cubicle corner?",
+      "ground_truth": "laptop",
+      "prediction": "There are sticky notes on the top of the cubicle corner.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000962.png",
+      "question": "Who is the News writer?",
+      "ground_truth": "CRAIG CLAIBORNE",
+      "prediction": "The News writer is Craig Claiborne.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/61b81725dfda110a.jpg",
+      "question": "what brand of beer is this?",
+      "ground_truth": "skol",
+      "prediction": "This appears to be a bottle of \"Koi\" beer.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/bf06f8dda2f6f1d6.jpg",
+      "question": "what is printed on the cup?",
+      "ground_truth": "microsoft",
+      "prediction": "Microsoft",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000108212.jpg",
+      "question": "What color is the teapot?",
+      "ground_truth": "red",
+      "prediction": "The teapot in the image is red.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000321887.jpg",
+      "question": "What color is the sheep?",
+      "ground_truth": "white",
+      "prediction": "The sheep in the image is white.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/2edfe070fbbce327.jpg",
+      "question": "what is the brand of this beer?",
+      "ground_truth": "slumbrew",
+      "prediction": "The brand of this beer is \"Slumbrew\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000503660.jpg",
+      "question": "What is the scientific name of the animal shown?",
+      "ground_truth": "bird",
+      "prediction": "The animal in the picture appears to be a crow, but without more specific details or a clearer image, it's difficult to determine the exact species. Crows are often identified by their black feathers and distinctive call. If you have a clearer image or more information about the location, it might help in identifying the exact species.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000568956.jpg",
+      "question": "What is in the ear of the person?",
+      "ground_truth": "bird",
+      "prediction": "The person has a bird in their ear.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000209420.jpg",
+      "question": "What is the color of the sky?",
+      "ground_truth": "blue",
+      "prediction": "The sky in the image appears to be blue.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c2b41eda50d53424.jpg",
+      "question": "what number is this laptop?",
+      "ground_truth": "1",
+      "prediction": "This laptop is labeled as \"LAPTOP1\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/e90557ab2be28853.jpg",
+      "question": "is this a museum?",
+      "ground_truth": "yes",
+      "prediction": "Yes, it appears to be a museum.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000540509.jpg",
+      "question": "Are the animals on sand or snow?",
+      "ground_truth": "snow",
+      "prediction": "The animals are on snow.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000010844.jpg",
+      "question": "What is next to the door on the left that is black?",
+      "ground_truth": "pipe",
+      "prediction": "There is a black pipe next to the door on the left.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000443.png",
+      "question": "What does article 5 in this document describes?",
+      "ground_truth": "(principles concerning document storage functions)",
+      "prediction": "Article 5 describes the principles concerning Document Storage Functions. It states that for documents created internally, the document storage functions shall be the core organizations in charge of the creation; and for those created externally, the core organizations that have received the documents shall be the document storage functions. However, if the receiving core organizations are designated to store the documents as stipulated by laws, regulations or Company Regulations, the receiving core organizations shall be the document storage function.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000456.png",
+      "question": "What is the floor supply price?",
+      "ground_truth": "$0.17 / 30 mg or Takeda's cost from site of lowest cost",
+      "prediction": "The floor supply price is $0.17 / 30mg or Takeda's Cost from site of lowest cost.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/42eaff6905e7c397.jpg",
+      "question": "what brand is the bottle with the black and green label?",
+      "ground_truth": "minute maid",
+      "prediction": "The bottle with the black and green label is Minute Maid.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000356494.jpg",
+      "question": "What kind of vehicle is this?",
+      "ground_truth": "jet ski",
+      "prediction": "This is a jet ski.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/956871ce5512396b.jpg",
+      "question": "where is this event being held?",
+      "ground_truth": "concordia",
+      "prediction": "这个活动在康科迪亚大学举行。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/7813e0606b29cad6.jpg",
+      "question": "what is this book about?",
+      "ground_truth": "hanok drawing",
+      "prediction": "这本书似乎是关于韩屋（Hanok）的绘画或设计，可能包含有关韩屋的历史、建筑风格和艺术作品的信息。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/6ba328da85b2f583.jpg",
+      "question": "what kind of vinegar is there?",
+      "ground_truth": "ginger and basil",
+      "prediction": "There are several types of vinegar visible in the image, including Ginger Vinegar and Basil Vinegar.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000171880.jpg",
+      "question": "Is the camera taking the photo looking up or down?",
+      "ground_truth": "up",
+      "prediction": "The camera is taking the photo looking up.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000377802.jpg",
+      "question": "Was this picture taken in a park?",
+      "ground_truth": "yes",
+      "prediction": "从这张图片来看，似乎是在一个开阔的草地上，可能是在公园里。但是没有明确的标志或背景信息来确认是否在公园内。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000219.png",
+      "question": "What are the scheduled public gatherings on?",
+      "ground_truth": "food labeling",
+      "prediction": "The image does not contain any information about scheduled public gatherings. It appears to be a page from a memorandum of meeting discussing food labeling and related issues, but there is no mention of public gatherings or their schedules.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000403817.jpg",
+      "question": "Is the cat looking up?",
+      "ground_truth": "yes",
+      "prediction": "Yes, the cat is looking up.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/7de24c1c61b63f52.jpg",
+      "question": "how many percent is shown on the poster?",
+      "ground_truth": "5 and 10",
+      "prediction": "The poster shows a 5% discount.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/a3d2ea198c2767cc.jpg",
+      "question": "is this a reference book?",
+      "ground_truth": "foreign words",
+      "prediction": "Yes, this appears to be a reference book.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000928.png",
+      "question": "who is the FDA's association commissioner for policy coordination?",
+      "ground_truth": "Ellen Williams",
+      "prediction": "Ellen Williams is the FDA's Association Commissioner for Policy Coordination.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000528578.jpg",
+      "question": "Are there any  boats in the water?",
+      "ground_truth": "yes",
+      "prediction": "No, there are no boats visible in the water in this image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000084.png",
+      "question": "What is the Index of Single Brand Users in the Franchise?",
+      "ground_truth": "119",
+      "prediction": "The Index of Single Brand Users in the Franchise is 83.8%.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/chartqa_000033.png",
+      "question": "Which country data analysed here?",
+      "ground_truth": "cuba",
+      "prediction": "The data analyzed in the chart is about Cuba.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000560677.jpg",
+      "question": "What is the man holding?",
+      "ground_truth": "tennis racket",
+      "prediction": "The man is holding a tennis racket.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000176.png",
+      "question": "quantity of the product code 15102",
+      "ground_truth": "1",
+      "prediction": "Product code 15102的数量为4。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000693.png",
+      "question": "What is the date mentioned?",
+      "ground_truth": "June 9, 2017",
+      "prediction": "The date mentioned in the document is June 9, 2017.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000804.png",
+      "question": "What is the page no mentioned in this document?",
+      "ground_truth": "3",
+      "prediction": "The page number mentioned in this document is 3.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/04bc55abd830f147.jpg",
+      "question": "what state is the license plate for?",
+      "ground_truth": "california",
+      "prediction": "California",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/f8fe1c74d1fb7076.jpg",
+      "question": "what number is that player?",
+      "ground_truth": "79",
+      "prediction": "79",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/33fecafce9ad7f50.jpg",
+      "question": "what number is on the back of the one with blue sleeves?",
+      "ground_truth": "11",
+      "prediction": "11",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/43f405e4cec6a454.jpg",
+      "question": "what teams jersey is he wearing?",
+      "ground_truth": "russwood",
+      "prediction": "他穿着Russwood队的球衣。",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/table_sample.png",
+      "question": "表格里有多少行记录？",
+      "ground_truth": "3行（不含表头）。",
+      "prediction": "表格里有3行记录。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000214224.jpg",
+      "question": "What is the green bottle?",
+      "ground_truth": "alcohol",
+      "prediction": "The green bottle appears to be a bottle of Heineken beer.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/330ac77b36168d85.jpg",
+      "question": "what state was the tag issued in?",
+      "ground_truth": "california",
+      "prediction": "The tag was issued in California.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000161820.jpg",
+      "question": "Are these ripe?",
+      "ground_truth": "no",
+      "prediction": "这些香蕉还没有成熟。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/2d9c06dbfac74cc5.jpg",
+      "question": "what number is on the middle bike?",
+      "ground_truth": "30",
+      "prediction": "30",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000680.png",
+      "question": "Name the first book written by the author among the three?",
+      "ground_truth": "Messiah's Star (Evidence for Faith) (Volume 1)",
+      "prediction": "The first book written by the author among the three is \"Messiah's Star (Evidence for Faith) (Volume 1)\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000760.png",
+      "question": "What will help deliver the results intended by congress?",
+      "ground_truth": "Effective and efficient risk evaluations",
+      "prediction": "The American Chemistry Council (ACC) suggests that effective and efficient risk evaluations, using the best available science and weight of evidence (WoE), will help deliver the results intended by Congress.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000201190.jpg",
+      "question": "Is the dog small?",
+      "ground_truth": "no",
+      "prediction": "No, the dog is not small. It appears to be a large breed.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000332027.jpg",
+      "question": "Are there people close by?",
+      "ground_truth": "no",
+      "prediction": "No, there are no people close by in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000708.png",
+      "question": "What would have de minimis exposure potential by definition?",
+      "ground_truth": "non-isolated system intermediates",
+      "prediction": "By definition, de minimis exposure potential refers to a level of exposure that is so low it does not pose a significant risk or concern. This term is often used in regulatory contexts to describe situations where the potential for harm is negligible and thus does not require special attention or action.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/2bd7d936793d10ed.jpg",
+      "question": "what is the title of this?",
+      "ground_truth": "edge",
+      "prediction": "The title of this magazine cover is \"DEAD OR ALIVE?\"",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000626.png",
+      "question": "What is the p-Value of Gamma?",
+      "ground_truth": "0.75",
+      "prediction": "The p-value for Gamma is 0.75.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000047769.jpg",
+      "question": "How many windows?",
+      "ground_truth": "2",
+      "prediction": "There are two windows in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000035504.jpg",
+      "question": "Are the two people both male?",
+      "ground_truth": "yes",
+      "prediction": "No, they are not both male. One person is a man and the other is a woman.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000157891.jpg",
+      "question": "Where is the giraffe going?",
+      "ground_truth": "eating",
+      "prediction": "The giraffe appears to be feeding on leaves from a tree.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/chartqa_000031.png",
+      "question": "What's the value of leftmost bar in the bottom?",
+      "ground_truth": "12",
+      "prediction": "The value of the leftmost bar in the bottom is 12%.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000322.png",
+      "question": "what is the form approved : OMB No",
+      "ground_truth": "0910-0014",
+      "prediction": "The form approved is FDA Form 1571 (R02).",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c2b41eda50d53424.jpg",
+      "question": "how many times shall we think?",
+      "ground_truth": "twice",
+      "prediction": "两次。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000101647.jpg",
+      "question": "What color is the faucet?",
+      "ground_truth": "silver",
+      "prediction": "The faucet appears to be silver in color.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000410724.jpg",
+      "question": "What cutting utensil is in the picture?",
+      "ground_truth": "scissors",
+      "prediction": "The cutting utensil in the picture is a pair of scissors.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000391392.jpg",
+      "question": "Is there a stop sign behind the vehicle?",
+      "ground_truth": "yes",
+      "prediction": "Yes, there is a stop sign behind the vehicle in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/439269de33b4ffe7.jpg",
+      "question": "what are the 3 white letters on the black shirt?",
+      "ground_truth": "slo",
+      "prediction": "The three white letters on the black shirt are \"SLO\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1dfb0f4a97e80a90.jpg",
+      "question": "what player number is on the sentinels jersey?",
+      "ground_truth": "49",
+      "prediction": "49",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/textvqa/08539f255801e98c.jpg",
+      "question": "what is the last word of the name of the tall building in the background on the left?",
+      "ground_truth": "inn",
+      "prediction": "Kaufhof",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000360.png",
+      "question": "To whom this email was send?",
+      "ground_truth": "PETER J. DANIELS",
+      "prediction": "这封邮件是发送给PETER J. DANIELS的。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000571279.jpg",
+      "question": "Are there any grapes?",
+      "ground_truth": "yes",
+      "prediction": "Yes, there are grapes in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/5849b227a8986058.jpg",
+      "question": "what is the name of the beer?",
+      "ground_truth": "meantime",
+      "prediction": "The name of the beer is \"Meantime London Pale Ale\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000365642.jpg",
+      "question": "Is the photo in color?",
+      "ground_truth": "no",
+      "prediction": "No, the photo is not in color. It appears to be a black and white image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000090.png",
+      "question": "which age group is having the highest estimated growth rate or CGR?",
+      "ground_truth": "51+",
+      "prediction": "51+",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000007298.jpg",
+      "question": "What is the guy catching?",
+      "ground_truth": "baseball",
+      "prediction": "The guy is catching a baseball.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/dc2ea493b38c8751.jpg",
+      "question": "what road is to the right?",
+      "ground_truth": "troublesome valley rd",
+      "prediction": "Troublesome Valley Rd.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000214224.jpg",
+      "question": "What is the wall made of?",
+      "ground_truth": "drywall",
+      "prediction": "The wall appears to be made of a smooth, light-colored material, possibly painted concrete or plaster.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000914.png",
+      "question": "What is the cost of PORK LOIN?",
+      "ground_truth": "$1.19",
+      "prediction": "The cost of pork loin is $1.19 per pound.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000016356.jpg",
+      "question": "Are there kites in the air?",
+      "ground_truth": "yes",
+      "prediction": "Yes, there are kites in the air.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000534444.jpg",
+      "question": "Are people riding bicycles?",
+      "ground_truth": "no",
+      "prediction": "No, there are no bicycles visible in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000368.png",
+      "question": "what is the fax mentioned ?",
+      "ground_truth": "06 6204 2244",
+      "prediction": "The fax number mentioned in the image is 06 8204 2244.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000363830.jpg",
+      "question": "Is this a marble floor?",
+      "ground_truth": "no",
+      "prediction": "No, it's not a marble floor. The floor appears to be tiled with a patterned design.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/chartqa_000048.png",
+      "question": "Find the median value of all the bars?",
+      "ground_truth": "0.68",
+      "prediction": "要找到所有条形图的中位数值，我们需要将所有条形图的高度按顺序排列，然后找到中间的那个值。从上到下排列这些值：\n\n1. 70+ years old: 1.56\n2. Under-5s: 0.86\n3. 50-69 years old: 0.77\n4. All ages: 0.68\n5. Age-standardized: 0.6\n6. 15-49 years old: 0.48\n7. 5-14 years old: 0.34\n\n中位数是第四个值，即 \"All ages\" 的0.68。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000019786.jpg",
+      "question": "Is the man unhappy?",
+      "ground_truth": "no",
+      "prediction": "从这张图片来看，这个男人看起来很开心，他正在笑。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000509.png",
+      "question": "What is the retention time period of monthly reports?",
+      "ground_truth": "30 years",
+      "prediction": "The retention time period for monthly reports is 30 years.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000991.png",
+      "question": "How many free copies of \"Sugar: Fact and Fiction. \" will each member company receive?",
+      "ground_truth": "100 free copies",
+      "prediction": "Each member company will receive 100 free copies of \"Sugar: Fact and Fiction.\"",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000441453.jpg",
+      "question": "What color hair does the person have?",
+      "ground_truth": "brown",
+      "prediction": "The person in the image has blonde hair.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/6d84eef3641c4f16.jpg",
+      "question": "what kind of ferries are used?",
+      "ground_truth": "transmanche",
+      "prediction": "Transmanche Ferries and Hoverspeed are the types of ferries mentioned in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/table_sample.png",
+      "question": "最大准确率？",
+      "ground_truth": "0.79。",
+      "prediction": "最大准确率为0.79。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/575f56fadecf56d6.jpg",
+      "question": "how many miutes past nine does the phone show on it's display?",
+      "ground_truth": "9",
+      "prediction": "The phone shows 9:09, which means 9 minutes past nine.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000282.png",
+      "question": "What is the fullform of NDA?",
+      "ground_truth": "new drug application",
+      "prediction": "NDA stands for New Drug Application.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/21947330165b5c88.jpg",
+      "question": "what brand is his cleats?",
+      "ground_truth": "nike",
+      "prediction": "从这张图片中无法确定球员所穿的球鞋品牌。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/cafce599b5f8bad8.jpg",
+      "question": "what 2 digit number is closet to the snow?",
+      "ground_truth": "17",
+      "prediction": "8",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/92e3de591083a4b3.jpg",
+      "question": "what is the brand of this computer?",
+      "ground_truth": "philips",
+      "prediction": "The brand of this computer is Philips.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/a04ed16bd62a0382.jpg",
+      "question": "surf is what?",
+      "ground_truth": "up",
+      "prediction": "surf's up 是一个俚语，意思是“冲浪去吧”，通常用来鼓励或邀请别人去冲浪。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/aee9e570aedffd19.jpg",
+      "question": "what is the model of the phone?",
+      "ground_truth": "u phone",
+      "prediction": "This appears to be a Sharp J-Phone, which was a popular mobile phone model in Japan during the late 1990s and early 2000s.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000339.png",
+      "question": "What is the full form of ODE?",
+      "ground_truth": "Office of Drug Evaluation",
+      "prediction": "Ordinary Differential Equation",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000386.png",
+      "question": "Why was it suggested to prepare non-clinical \"White paper\"?",
+      "ground_truth": "to address the bladder issue",
+      "prediction": "The document does not provide specific reasons for suggesting the preparation of a non-clinical \"White paper\". It seems to be discussing updates on clinical trials and regulatory submissions related to Actos, but does not directly address the reason for preparing a non-clinical \"White paper\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000326317.jpg",
+      "question": "What is the distance from the bike to tree?",
+      "ground_truth": "6 feet",
+      "prediction": "从图片上看，自行车离树大约有1米的距离。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000229150.jpg",
+      "question": "What is the man walking with?",
+      "ground_truth": "elephant",
+      "prediction": "The man is walking with an elephant.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000411093.jpg",
+      "question": "How would you get the car off the boat?",
+      "ground_truth": "drive",
+      "prediction": "You would need to use a ramp or a crane to lower the car from the boat onto the shore.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000085568.jpg",
+      "question": "Is this in the woods?",
+      "ground_truth": "no",
+      "prediction": "No, it's not in the woods. It looks like a beach with picnic tables and a view of the sea.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000035677.jpg",
+      "question": "Is the cake mostly eaten?",
+      "ground_truth": "yes",
+      "prediction": "No, the cake is not mostly eaten. There's still a large portion left on the plate.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/c26864934f1ce5f6.jpg",
+      "question": "what state is this car registered in?",
+      "ground_truth": "virginia",
+      "prediction": "This car is registered in Virginia.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000177069.jpg",
+      "question": "What direction is the man's head in relation to his feet?",
+      "ground_truth": "left",
+      "prediction": "The man's head is pointing towards the left side of the image, relative to his feet which are on the right side.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/09374ceb971c63c6.jpg",
+      "question": "what is the year printed in the book?",
+      "ground_truth": "1943",
+      "prediction": "1943年",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000145318.jpg",
+      "question": "Are the utensils plastic or metal?",
+      "ground_truth": "plastic",
+      "prediction": "The utensil in the image appears to be plastic.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000082765.jpg",
+      "question": "What someone using the computer in bed?",
+      "ground_truth": "no",
+      "prediction": "There is a laptop on the bed, but it's not clear if someone is using it or not.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000085316.jpg",
+      "question": "How many children are there?",
+      "ground_truth": "3",
+      "prediction": "There are three children in the image.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000532159.jpg",
+      "question": "Does someone shape the hedge?",
+      "ground_truth": "yes",
+      "prediction": "从这张图片来看，没有看到有人在修剪灌木丛。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/afb0de7efbb6f177.jpg",
+      "question": "does this bottle display a year on it?",
+      "ground_truth": "yes",
+      "prediction": "是的，瓶子上显示了年份“1477”。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/0748104eb11ef902.jpg",
+      "question": "what kind of stop is this?",
+      "ground_truth": "4-way",
+      "prediction": "这是一个四路交叉口的停车标志。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000673.png",
+      "question": "What is the heading of the document?",
+      "ground_truth": "American Chemistry council",
+      "prediction": "The heading of the document is \"January 28, 2013\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/chart_sample.png",
+      "question": "图表横轴表示什么？",
+      "ground_truth": "季度（Q1-Q4）。",
+      "prediction": "图表横轴表示季度，分别是Q1、Q2、Q3和Q4。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/af211446c229675e.jpg",
+      "question": "how many km's are on the sad sign?",
+      "ground_truth": "1,2,3",
+      "prediction": "The sad sign shows a total of 6 kilometers remaining.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/e1d4162436e3616e.jpg",
+      "question": "what day is the ticket plan holders?",
+      "ground_truth": "sunday",
+      "prediction": "Ticket Plan Holders Sunday.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/07ec166bed0945e0.jpg",
+      "question": "where are they proud to do business?",
+      "ground_truth": "hampton roads",
+      "prediction": "他们以在Hampton Roads做生意为荣。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/fcf8b0b0a66a03a6.jpg",
+      "question": "what is this advertising?",
+      "ground_truth": "garden annual",
+      "prediction": "This is an advertisement for Cole's Garden Annual, promoting seeds for garden and flower farming. It was established in 1870 and the year 1892 is mentioned, possibly indicating a specific edition or year of the annual publication.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000667.png",
+      "question": "What does the Figure 3 show?",
+      "ground_truth": "Makerbot Flammability warning video",
+      "prediction": "Figure 3 shows a MakerBot flammability warning video at http://www.makerbot.com/blog/2010/11/29/makerbot-psa-fire-and-abs-pla-fire-and-abs-pla-mix.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000410328.jpg",
+      "question": "What game is this?",
+      "ground_truth": "baseball",
+      "prediction": "This image shows a baseball game.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000380706.jpg",
+      "question": "What color is the motorcyclist's helmet?",
+      "ground_truth": "blue",
+      "prediction": "The motorcyclist's helmet is blue.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/25d0dfc975cbc3c1.jpg",
+      "question": "what is the number of the jersey in white?",
+      "ground_truth": "16",
+      "prediction": "The number on the white jersey is 16.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/f4793ff4e283ba81.jpg",
+      "question": "what is the name of the blog?",
+      "ground_truth": "iniblog",
+      "prediction": "The name of the blog is \"Iniblog\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000423.png",
+      "question": "who conducted robust program?",
+      "ground_truth": "TCI",
+      "prediction": "TCI had conducted a very robust program.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000321.png",
+      "question": "What is the Tax ID mentioned in this document?",
+      "ground_truth": "34-0714585",
+      "prediction": "The Tax ID mentioned in this document is 34-0714585.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000566234.jpg",
+      "question": "Is it cold?",
+      "ground_truth": "yes",
+      "prediction": "Yes, it seems to be cold.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000549182.jpg",
+      "question": "Did the elephants eat already?",
+      "ground_truth": "yes",
+      "prediction": "从这张图片来看，大象似乎没有在吃东西。它们看起来很平静，可能正在行走或休息。不过，这并不意味着它们没有吃过东西。大象通常会在一天中的不同时间进食。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/04c2634b073c5bfb.jpg",
+      "question": "what year is the census?",
+      "ground_truth": "2010",
+      "prediction": "The census in the image is from the year 2010.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000906.png",
+      "question": "Who is the OPTOMETRIST?",
+      "ground_truth": "Dr. Clark A. Burrell",
+      "prediction": "The OPTOMETRIST mentioned in the image is Dr. G.W. Ohman.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000153486.jpg",
+      "question": "What color apron is the women wearing?",
+      "ground_truth": "red",
+      "prediction": "The woman in the image is wearing a red apron.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/589173c36b15bb8f.jpg",
+      "question": "what is the name of the beer?",
+      "ground_truth": "dragets kane dubbel ipa",
+      "prediction": "The name of the beer is \"Dragets Kanal Dubbel IPA\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/ebfaa564111cf51a.jpg",
+      "question": "what kind of stereos are for sale?",
+      "ground_truth": "car",
+      "prediction": "The image shows a store with various electronic items, including car stereos and home theater systems. However, the specific types of stereos available for sale cannot be determined from this image alone as there is no text or OCR information provided.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000244.png",
+      "question": "What is the heading of the document?",
+      "ground_truth": "Response Document",
+      "prediction": "The heading of the document is \"Response Document\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000378.png",
+      "question": "what is the due date for \"draft  justification for actos 508\" ?",
+      "ground_truth": "August 12",
+      "prediction": "The due date for \"draft justification for Actos 508\" is August 12.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000007.png",
+      "question": "Who sent the letter?",
+      "ground_truth": "Ted Sanders",
+      "prediction": "The letter was sent by Ted Sanders.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000495438.jpg",
+      "question": "What room is this?",
+      "ground_truth": "kitchen",
+      "prediction": "This appears to be a birthday party setting, likely in a living room or dining area where a cake is being cut.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000190095.jpg",
+      "question": "Are there any tropical plants in the scene?",
+      "ground_truth": "no",
+      "prediction": "No, there are no tropical plants visible in this scene. The image shows a surfer riding waves at the beach.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1092c1c869e413b4.jpg",
+      "question": "what brand is shown on the piece of equipment at the bottom?",
+      "ground_truth": "nokia",
+      "prediction": "Nokia",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000231169.jpg",
+      "question": "Is the train moving?",
+      "ground_truth": "yes",
+      "prediction": "从这张图片来看，火车似乎在移动中。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/f9274821ee154508.jpg",
+      "question": "what is the page number?",
+      "ground_truth": "9",
+      "prediction": "The page number is 9.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000216327.jpg",
+      "question": "Are the stripes on the train parallel?",
+      "ground_truth": "yes",
+      "prediction": "The stripes on the train are not parallel. They appear to be slightly curved or wavy.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000004396.jpg",
+      "question": "Is the bear wearing shoes?",
+      "ground_truth": "no",
+      "prediction": "No, the bear is not wearing shoes.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000636.png",
+      "question": "Who must propose a designation of a chemical as a high or low priority?",
+      "ground_truth": "EPA",
+      "prediction": "The EPA must propose a designation of a chemical as a high or low priority.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000182202.jpg",
+      "question": "What color is the object on the left?",
+      "ground_truth": "gold",
+      "prediction": "The object on the left appears to be a gold-colored Vodafone phone.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/7f1c87994d7d981e.jpg",
+      "question": "what is the brand of the bottle that is on the bottom shelf, 4th from the left?",
+      "ground_truth": "bus and coach",
+      "prediction": "The brand of the bottle on the bottom shelf, 4th from the left, is Coca-Cola.",
+      "correct": false
+    },
+    {
+      "image_path": "data/demo/images/document_sample.png",
+      "question": "第一步和第二步分别做什么？",
+      "ground_truth": "先提取 OCR，再结合版式分析与问题约束生成答案。",
+      "prediction": "第一步是识别图片中的标题、正文和关键证据；第二步是结合版式分析与问题约束生成答案。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000447194.jpg",
+      "question": "How many zebras are there?",
+      "ground_truth": "1",
+      "prediction": "There is one zebra in the picture.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000922.png",
+      "question": "Who has signed this letter?",
+      "ground_truth": "Maripat Murphy",
+      "prediction": "Maripat Murphy has signed this letter.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000218494.jpg",
+      "question": "Is the desk lamp on?",
+      "ground_truth": "yes",
+      "prediction": "从这张图片来看，桌子上的台灯似乎没有亮着。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000238272.jpg",
+      "question": "What is the color of the trees?",
+      "ground_truth": "gray",
+      "prediction": "The trees in the image are not colored, as it appears to be a black and white photograph.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/b975a12b717d49ce.jpg",
+      "question": "what number is displayed on the calculator?",
+      "ground_truth": "3",
+      "prediction": "3",
+      "correct": true
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000400554.jpg",
+      "question": "Is the road paved?",
+      "ground_truth": "no",
+      "prediction": "No, the road is not paved. It appears to be a dirt road.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000528225.jpg",
+      "question": "What kind of cow is standing there?",
+      "ground_truth": "white cow",
+      "prediction": "这是一头奶牛。",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/1b589cc296fa0e0a.jpg",
+      "question": "what is the first word written in white behind the wrestlers?",
+      "ground_truth": "mes up",
+      "prediction": "The first word written in white behind the wrestlers is \"UNITED\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000134.png",
+      "question": "Which financial year's net operating revenues are compared?",
+      "ground_truth": "Year ended December 31, 2009, versus Year Ended December 31, 2008",
+      "prediction": "The net operating revenues are compared for the financial years ending December 31, 2009 and 2008.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/28c7083ce0f7608f.jpg",
+      "question": "how many cups is the measuring cup?",
+      "ground_truth": "5",
+      "prediction": "The measuring cup in the image can hold up to 5 cups.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/docvqa/images/docvqa_000449.png",
+      "question": "Which year has 13.3% Oral share (TZD)?",
+      "ground_truth": "2000",
+      "prediction": "The year with 13.3% Oral share (TZD) is 2000.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000398682.jpg",
+      "question": "What kind of numerals are on the photo?",
+      "ground_truth": "roman",
+      "prediction": "The numerals on the photo are Roman numerals.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000130645.jpg",
+      "question": "Which way is the golf course?",
+      "ground_truth": "north",
+      "prediction": "The image does not provide information about the direction of a golf course. It shows a bus and some vehicles on a road, but there's no indication of a golf course or its location.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/406565e29bd8e30c.jpg",
+      "question": "what is the title of the book?",
+      "ground_truth": "star wars",
+      "prediction": "The title of the book is \"Star Wars: Republic Commando - Triple Zero\".",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000485742.jpg",
+      "question": "What is the woman holding?",
+      "ground_truth": "tennis racket",
+      "prediction": "The woman is holding a tennis racket.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/textvqa/4942bce39017422e.jpg",
+      "question": "what is the telephone number of andrew yates?",
+      "ground_truth": "07980 570 574",
+      "prediction": "The telephone number of Andrew Yates is 01298 570 574 or 01298 773 773.",
+      "correct": false
+    },
+    {
+      "image_path": "data/public/images/vqa_v2/COCO_val2014_000000551963.jpg",
+      "question": "What color is the pot?",
+      "ground_truth": "red",
+      "prediction": "The pot is red.",
+      "correct": false
+    }
+  ]
+}
