@@ -1,0 +1,9 @@
+{
+  "total": 172,
+  "train": 155,
+  "val": 17,
+  "sources": {
+    "chartqa": 50,
+    "custom_zh": 122
+  }
+}

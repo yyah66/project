@@ -1,0 +1,15 @@
+{
+  "base_model": "/root/autodl-tmp/models/qwen/Qwen2.5-VL-7B-Instruct",
+  "lora_rank": 64,
+  "lora_alpha": 128,
+  "train_samples": 4095,
+  "val_samples": 511,
+  "epochs": 3,
+  "batch_size": 4,
+  "gradient_accumulation": 4,
+  "learning_rate": 0.0002,
+  "max_length": 4096,
+  "max_ocr_lines": 24,
+  "evidence_enabled": true,
+  "use_qlora": true
+}

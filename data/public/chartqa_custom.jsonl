@@ -1,0 +1,50 @@
+{"image_path": "data/public/images/chartqa_000001.png", "question": "What's the color of graph with 56 as the highest value?", "answer": "Blue", "evidence": [], "dataset": "chartqa", "sample_id": "1"}
+{"image_path": "data/public/images/chartqa_000002.png", "question": "In which year the difference between blue and green graph 1?", "answer": "2018", "evidence": [], "dataset": "chartqa", "sample_id": "2"}
+{"image_path": "data/public/images/chartqa_000003.png", "question": "What does the blue line represent?", "answer": "Not too much/not at all", "evidence": [], "dataset": "chartqa", "sample_id": "3"}
+{"image_path": "data/public/images/chartqa_000004.png", "question": "What is the max value of blue line?", "answer": "0.72", "evidence": [], "dataset": "chartqa", "sample_id": "4"}
+{"image_path": "data/public/images/chartqa_000005.png", "question": "What's the percentage of respondents who say Job is a top priority for the president and Congress in 2016?", "answer": "68", "evidence": [], "dataset": "chartqa", "sample_id": "5"}
+{"image_path": "data/public/images/chartqa_000006.png", "question": "Which line has the lowest value of 71%?", "answer": "Economy", "evidence": [], "dataset": "chartqa", "sample_id": "6"}
+{"image_path": "data/public/images/chartqa_000007.png", "question": "What is the unfavourable value in 2014?", "answer": "64", "evidence": [], "dataset": "chartqa", "sample_id": "7"}
+{"image_path": "data/public/images/chartqa_000008.png", "question": "What is the median value of favourable line in the graph?", "answer": "40", "evidence": [], "dataset": "chartqa", "sample_id": "8"}
+{"image_path": "data/public/images/chartqa_000009.png", "question": "Which answer response has the highest value on this graph?", "answer": "Disapprove", "evidence": [], "dataset": "chartqa", "sample_id": "9"}
+{"image_path": "data/public/images/chartqa_000010.png", "question": "How many data points on the disapprove line are above 50?", "answer": "2", "evidence": [], "dataset": "chartqa", "sample_id": "10"}
+{"image_path": "data/public/images/chartqa_000011.png", "question": "Which indicator remains all time lowest from Dec. 2008 to Sep. 2011?", "answer": "Mostly good news", "evidence": [], "dataset": "chartqa", "sample_id": "11"}
+{"image_path": "data/public/images/chartqa_000012.png", "question": "How much value of 'Mostly bad news' increased from Jan. 2011 to Sept. 2011?", "answer": "37", "evidence": [], "dataset": "chartqa", "sample_id": "12"}
+{"image_path": "data/public/images/chartqa_000013.png", "question": "When does the red line reach the peak?", "answer": "44538", "evidence": [], "dataset": "chartqa", "sample_id": "13"}
+{"image_path": "data/public/images/chartqa_000014.png", "question": "What's the total sum of peak points of all three lines?", "answer": "155", "evidence": [], "dataset": "chartqa", "sample_id": "14"}
+{"image_path": "data/public/images/chartqa_000015.png", "question": "When does the yellow line reach the peak?", "answer": "44207", "evidence": [], "dataset": "chartqa", "sample_id": "15"}
+{"image_path": "data/public/images/chartqa_000016.png", "question": "What's the total sum of peak points of green and red lines?", "answer": "87", "evidence": [], "dataset": "chartqa", "sample_id": "16"}
+{"image_path": "data/public/images/chartqa_000017.png", "question": "What's the lowest value of yellow line?", "answer": "19", "evidence": [], "dataset": "chartqa", "sample_id": "17"}
+{"image_path": "data/public/images/chartqa_000018.png", "question": "What's the difference of value of highiest value of red and lowest value of green line?", "answer": "79", "evidence": [], "dataset": "chartqa", "sample_id": "18"}
+{"image_path": "data/public/images/chartqa_000019.png", "question": "What is the colour of oppose in the graph?", "answer": "Light blue", "evidence": [], "dataset": "chartqa", "sample_id": "19"}
+{"image_path": "data/public/images/chartqa_000020.png", "question": "How many times there is 44 value in the Favor?", "answer": "3", "evidence": [], "dataset": "chartqa", "sample_id": "20"}
+{"image_path": "data/public/images/chartqa_000021.png", "question": "What is the percentage of people who are dissatisfied with Spain's democracy?", "answer": "68", "evidence": [], "dataset": "chartqa", "sample_id": "21"}
+{"image_path": "data/public/images/chartqa_000022.png", "question": "What is the ratio of people who are dissatisfied and satisfied with Spain's democracy?", "answer": "2.125", "evidence": [], "dataset": "chartqa", "sample_id": "22"}
+{"image_path": "data/public/images/chartqa_000023.png", "question": "Is the Pie chart divided into 3 segment?", "answer": "Yes", "evidence": [], "dataset": "chartqa", "sample_id": "23"}
+{"image_path": "data/public/images/chartqa_000024.png", "question": "IS the value of No more then sum of Yes and Dk?", "answer": "Yes", "evidence": [], "dataset": "chartqa", "sample_id": "24"}
+{"image_path": "data/public/images/chartqa_000025.png", "question": "What is the percentage of Iraqi dependents citizen?", "answer": "0.12", "evidence": [], "dataset": "chartqa", "sample_id": "25"}
+{"image_path": "data/public/images/chartqa_000026.png", "question": "What is the total percentage of Afghan applicants and Iraqi applicants?", "answer": "0.34", "evidence": [], "dataset": "chartqa", "sample_id": "26"}
+{"image_path": "data/public/images/chartqa_000027.png", "question": "Is the color of 53% segment light green?", "answer": "No", "evidence": [], "dataset": "chartqa", "sample_id": "27"}
+{"image_path": "data/public/images/chartqa_000028.png", "question": "What's the ratio of Lean Republican segment and Republican segment?", "answer": "0.7358", "evidence": [], "dataset": "chartqa", "sample_id": "28"}
+{"image_path": "data/public/images/chartqa_000029.png", "question": "What segment represent by dark grey color?", "answer": "Both", "evidence": [], "dataset": "chartqa", "sample_id": "29"}
+{"image_path": "data/public/images/chartqa_000030.png", "question": "What is the percentage of both and don't know?", "answer": "[4, 9]", "evidence": [], "dataset": "chartqa", "sample_id": "30"}
+{"image_path": "data/public/images/chartqa_000031.png", "question": "What's the value of leftmost bar in the bottom?", "answer": "12", "evidence": [], "dataset": "chartqa", "sample_id": "31"}
+{"image_path": "data/public/images/chartqa_000032.png", "question": "What is the largest value of dark green bar?", "answer": "0.92", "evidence": [], "dataset": "chartqa", "sample_id": "32"}
+{"image_path": "data/public/images/chartqa_000033.png", "question": "Which country data analysed here?", "answer": "cuba", "evidence": [], "dataset": "chartqa", "sample_id": "33"}
+{"image_path": "data/public/images/chartqa_000034.png", "question": "What is the maximum value of dark brown bar?", "answer": "7", "evidence": [], "dataset": "chartqa", "sample_id": "34"}
+{"image_path": "data/public/images/chartqa_000035.png", "question": "What's the percentage of very important bar for healthy eating habits?", "answer": "0.72", "evidence": [], "dataset": "chartqa", "sample_id": "35"}
+{"image_path": "data/public/images/chartqa_000036.png", "question": "What's the average of green bar median and light blue bar median?", "answer": "17", "evidence": [], "dataset": "chartqa", "sample_id": "36"}
+{"image_path": "data/public/images/chartqa_000037.png", "question": "What does dark blue bar represents?", "answer": "Very Important", "evidence": [], "dataset": "chartqa", "sample_id": "37"}
+{"image_path": "data/public/images/chartqa_000038.png", "question": "What's the average value of all dark blue bars?", "answer": "62.75", "evidence": [], "dataset": "chartqa", "sample_id": "38"}
+{"image_path": "data/public/images/chartqa_000039.png", "question": "What does the color green indicate?", "answer": "Support", "evidence": [], "dataset": "chartqa", "sample_id": "39"}
+{"image_path": "data/public/images/chartqa_000040.png", "question": "What is the difference between the longest and the shortest green bar?", "answer": "7", "evidence": [], "dataset": "chartqa", "sample_id": "40"}
+{"image_path": "data/public/images/chartqa_000041.png", "question": "Which country has the highest percentage value of \"a lot\"?", "answer": "Kenya", "evidence": [], "dataset": "chartqa", "sample_id": "41"}
+{"image_path": "data/public/images/chartqa_000042.png", "question": "What is the maximum value of \"a lot\" among countries?", "answer": "0.69", "evidence": [], "dataset": "chartqa", "sample_id": "42"}
+{"image_path": "data/public/images/chartqa_000043.png", "question": "How many bars are there in the graph?", "answer": "2", "evidence": [], "dataset": "chartqa", "sample_id": "43"}
+{"image_path": "data/public/images/chartqa_000044.png", "question": "What is the total sum of both the bars?", "answer": "7.81", "evidence": [], "dataset": "chartqa", "sample_id": "44"}
+{"image_path": "data/public/images/chartqa_000045.png", "question": "What's the value of United States?", "answer": "0.124", "evidence": [], "dataset": "chartqa", "sample_id": "45"}
+{"image_path": "data/public/images/chartqa_000046.png", "question": "What's the average value of Canada, Belgium and France?", "answer": "0.0277", "evidence": [], "dataset": "chartqa", "sample_id": "46"}
+{"image_path": "data/public/images/chartqa_000047.png", "question": "What is the death rate in the age group 5-14 years old?", "answer": "0.0034", "evidence": [], "dataset": "chartqa", "sample_id": "47"}
+{"image_path": "data/public/images/chartqa_000048.png", "question": "Find the median value of all the bars?", "answer": "0.68", "evidence": [], "dataset": "chartqa", "sample_id": "48"}
+{"image_path": "data/public/images/chartqa_000049.png", "question": "Which place shows the highest death rate?", "answer": "Grenada", "evidence": [], "dataset": "chartqa", "sample_id": "49"}
+{"image_path": "data/public/images/chartqa_000050.png", "question": "Is the value of death rate in Denmark more then Croatia?", "answer": "No", "evidence": [], "dataset": "chartqa", "sample_id": "50"}

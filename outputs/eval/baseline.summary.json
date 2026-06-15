@@ -1,0 +1,8 @@
+{
+  "samples": 17,
+  "exact_match": 0.0,
+  "average_overlap": 0.098,
+  "failure_notes": {
+    "答案表达不一致": 17
+  }
+}

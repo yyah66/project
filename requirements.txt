@@ -1,0 +1,23 @@
+# 核心运行时（必装）
+streamlit>=1.36.0
+pillow>=10.4.0
+numpy>=1.26.4
+requests>=2.32.3
+python-dotenv>=1.0.0
+
+# OCR 后端（按需选装至少一个）
+# paddleocr>=2.8.1           # 效果最好但体积大，建议 GPU 环境安装
+rapidocr-onnxruntime>=1.3.24  # CPU 优先推荐，安装快
+# pytesseract>=0.3.13         # 需额外安装 Tesseract 二进制
+
+# 数据集处理
+datasets>=2.20.0
+
+# 本地模型推理（provider=local 时需要）
+# transformers>=4.48.0
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# 训练依赖（仅 LoRA 微调时需要，同时需要上面的 transformers/torch））
+# peft>=0.12.0
+# accelerate>=0.33.0

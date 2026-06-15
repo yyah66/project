@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# Environment
+.env
+
+# Large model weights (exceed GitHub 100MB limit)
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# PDF outputs
+实验报告.pdf
+
+# OS
+.DS_Store
+Thumbs.db

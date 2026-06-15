@@ -1,0 +1,1 @@
+{"id": "demo_1", "image_path": "images/demo_1.png", "question": "图中的标题是什么？", "answer": "人工智能技术在医疗领域的应用", "evidence": ["页面顶部居中标题 - 人工智能技术在医疗领域的应用"], "answer_type": "定位", "difficulty": "简单", "ocr_required": false, "source": "课件截图", "notes": ""}

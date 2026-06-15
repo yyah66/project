@@ -1,0 +1,122 @@
+{"image_path": "data/demo/images/document_sample.png", "question": "这张图的主题是什么？", "answer": "课程报告摘要，主题是中文图文问答助手。", "evidence": ["课程报告摘要", "主题：中文图文问答助手"], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "图中提到了哪些方法？", "answer": "OCR、证据提示、视觉语言模型。", "evidence": ["方法：OCR + 证据提示 + 视觉语言模型"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "图片中描述的课题面向什么场景？", "answer": "中文图文混合场景，重点关注文档、课件和截图中的文字理解。", "evidence": ["本课题面向中文图文混合场景", "重点解决文档、课件和截图中的文字理解问题"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "图中说会对比哪三种设置？", "answer": "无 OCR、OCR 增强和证据提示三种设置。", "evidence": ["比较无 OCR、OCR 增强和证据提示三种设置的差异"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "文档中提到支持什么对话模式？", "answer": "多轮对话与可追溯回答。", "evidence": ["支持多轮对话与可追溯回答"], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "图片的主要内容是什么？", "answer": "课程报告摘要，介绍中文图文问答助手。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "这张图片属于什么类型？", "answer": "文档/课件页面。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "文中提到的研究目标有哪些？", "answer": "识别图片中的标题、正文和关键证据。", "evidence": [], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "文中说系统先提取什么再做什么？", "answer": "先提取 OCR，再结合版式分析与问题约束生成答案。", "evidence": [], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "文档中提到要降低什么问题？", "answer": "降低幻觉。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "文中标题颜色是什么？", "answer": "无法从图片文字中确定具体颜色。", "evidence": [], "type": "文档问答", "difficulty": "难"}
+{"image_path": "data/demo/images/table_sample.png", "question": "哪种设置的准确率最高？", "answer": "OCR + 证据提示，准确率0.79。", "evidence": ["OCR + 证据提示", "0.79"], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/table_sample.png", "question": "无 OCR 的准确率是多少？", "answer": "0.52。", "evidence": ["无 OCR", "0.52"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "可追溯性最高的是哪种设置？", "answer": "OCR + 证据提示，可追溯性为高。", "evidence": ["OCR + 证据提示", "高"], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/table_sample.png", "question": "准确率最低的设置是哪一种？", "answer": "无 OCR，准确率0.52。", "evidence": ["无 OCR", "0.52"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "OCR 增强的备注是什么？", "answer": "对截图更友好。", "evidence": ["对截图更友好"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "表中共有几行数据？", "answer": "3行（不含表头）。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "表格有几列？", "answer": "4列。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "无OCR 的可追溯性是什么等级？", "answer": "低。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "最高的准确率数值是多少？", "answer": "0.79。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "哪一列的取值有三种？", "answer": "准确率和可追溯性列都有三种取值。", "evidence": [], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "图表整体是增长还是下降？", "answer": "整体增长。", "evidence": ["Q1 12", "Q4 24"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "最高季度是哪一个？", "answer": "Q4，用户量为24。", "evidence": ["Q4", "24"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "Q2 的用户量是多少？", "answer": "18。", "evidence": ["Q2", "18"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "Q3 和 Q1 哪个用户量更高？", "answer": "Q3 用户量15，高于 Q1 的12。", "evidence": ["Q1 12", "Q3 15"], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "从 Q1 到 Q4 一共有几次季度间增长？", "answer": "两次：Q1→Q2（12→18），Q3→Q4（15→24）。", "evidence": ["12 18 15 24"], "type": "图表推理", "difficulty": "难"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "图表标题是什么？", "answer": "Q1-Q4 用户量变化图。", "evidence": ["Q1-Q4 用户量变化图"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "图表中使用了哪几种颜色？", "answer": "无法从图片文字中确定具体颜色。", "evidence": [], "type": "图表推理", "difficulty": "难"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "Q2 到 Q3 的变化趋势是什么？", "answer": "下降，从18降到15。", "evidence": [], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "四个季度的平均值大约是多少？", "answer": "约17.25。", "evidence": [], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "图表横轴表示什么？", "answer": "季度（Q1-Q4）。", "evidence": [], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "图表纵轴表示什么？", "answer": "用户量。", "evidence": [], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "这张图讲了什么？", "answer": "课程报告摘要，主题是中文图文问答助手。", "evidence": ["课程报告摘要", "主题：中文图文问答助手"], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "图片核心内容是什么？", "answer": "课程报告摘要，主题是中文图文问答助手。", "evidence": ["课程报告摘要", "主题：中文图文问答助手"], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "请概括这张图的主旨。", "answer": "课程报告摘要，主题是中文图文问答助手。", "evidence": ["课程报告摘要", "主题：中文图文问答助手"], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "列举图中使用的方法。", "answer": "OCR、证据提示、视觉语言模型。", "evidence": ["方法：OCR + 证据提示 + 视觉语言模型"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "图片里说了哪些技术？", "answer": "OCR、证据提示、视觉语言模型。", "evidence": ["方法：OCR + 证据提示 + 视觉语言模型"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "有哪些手段被提到了？", "answer": "OCR、证据提示、视觉语言模型。", "evidence": ["方法：OCR + 证据提示 + 视觉语言模型"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "课题针对的领域是什么？", "answer": "中文图文混合场景，重点关注文档、课件和截图中的文字理解。", "evidence": ["本课题面向中文图文混合场景", "重点解决文档、课件和截图中的文字理解问题"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "该课题的应用场景是什么？", "answer": "中文图文混合场景，重点关注文档、课件和截图中的文字理解。", "evidence": ["本课题面向中文图文混合场景", "重点解决文档、课件和截图中的文字理解问题"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "面向什么方向？", "answer": "中文图文混合场景，重点关注文档、课件和截图中的文字理解。", "evidence": ["本课题面向中文图文混合场景", "重点解决文档、课件和截图中的文字理解问题"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "要比较哪三种配置？", "answer": "无 OCR、OCR 增强和证据提示三种设置。", "evidence": ["比较无 OCR、OCR 增强和证据提示三种设置的差异"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "三种实验设置分别是什么？", "answer": "无 OCR、OCR 增强和证据提示三种设置。", "evidence": ["比较无 OCR、OCR 增强和证据提示三种设置的差异"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "对比了哪三个组？", "answer": "无 OCR、OCR 增强和证据提示三种设置。", "evidence": ["比较无 OCR、OCR 增强和证据提示三种设置的差异"], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "支持什么样的对话？", "answer": "多轮对话与可追溯回答。", "evidence": ["支持多轮对话与可追溯回答"], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "对话模式是什么？", "answer": "多轮对话与可追溯回答。", "evidence": ["支持多轮对话与可追溯回答"], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "系统支持哪种交互方式？", "answer": "多轮对话与可追溯回答。", "evidence": ["支持多轮对话与可追溯回答"], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "请用一句话描述图片内容。", "answer": "课程报告摘要，介绍中文图文问答助手。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "图中传递的核心信息是什么？", "answer": "课程报告摘要，介绍中文图文问答助手。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "这篇文档主要说了什么？", "answer": "课程报告摘要，介绍中文图文问答助手。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "图片是什么类别？", "answer": "文档/课件页面。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "这是什么类型的图？", "answer": "文档/课件页面。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "属于哪类素材？", "answer": "文档/课件页面。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "研究目标包括哪些？", "answer": "识别图片中的标题、正文和关键证据。", "evidence": [], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "文中说了要达成什么目标？", "answer": "识别图片中的标题、正文和关键证据。", "evidence": [], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "目标都有什么？", "answer": "识别图片中的标题、正文和关键证据。", "evidence": [], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "系统的处理流程是怎样的？", "answer": "先提取 OCR，再结合版式分析与问题约束生成答案。", "evidence": [], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "先后步骤是什么？", "answer": "先提取 OCR，再结合版式分析与问题约束生成答案。", "evidence": [], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "第一步和第二步分别做什么？", "answer": "先提取 OCR，再结合版式分析与问题约束生成答案。", "evidence": [], "type": "文档问答", "difficulty": "中"}
+{"image_path": "data/demo/images/document_sample.png", "question": "文中说要解决什么缺陷？", "answer": "降低幻觉。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "要抑制什么不良现象？", "answer": "降低幻觉。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "降低什么？", "answer": "降低幻觉。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "哪个配置准确率最好？", "answer": "OCR + 证据提示，准确率0.79。", "evidence": ["OCR + 证据提示", "0.79"], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/table_sample.png", "question": "谁的成绩最高？", "answer": "OCR + 证据提示，准确率0.79。", "evidence": ["OCR + 证据提示", "0.79"], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/table_sample.png", "question": "准确率最强的方案是哪个？", "answer": "OCR + 证据提示，准确率0.79。", "evidence": ["OCR + 证据提示", "0.79"], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/table_sample.png", "question": "不启用 OCR 时成绩如何？", "answer": "0.52。", "evidence": ["无 OCR", "0.52"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "未用 OCR 时的准确率数值？", "answer": "0.52。", "evidence": ["无 OCR", "0.52"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "基础配置准确率？", "answer": "0.52。", "evidence": ["无 OCR", "0.52"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "哪个方案最可追溯？", "answer": "OCR + 证据提示，可追溯性为高。", "evidence": ["OCR + 证据提示", "高"], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/table_sample.png", "question": "追溯能力最强的配置？", "answer": "OCR + 证据提示，可追溯性为高。", "evidence": ["OCR + 证据提示", "高"], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/table_sample.png", "question": "可解释性最好的是？", "answer": "OCR + 证据提示，可追溯性为高。", "evidence": ["OCR + 证据提示", "高"], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/table_sample.png", "question": "最差的方案是哪个？", "answer": "无 OCR，准确率0.52。", "evidence": ["无 OCR", "0.52"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "准确率垫底的是哪种配置？", "answer": "无 OCR，准确率0.52。", "evidence": ["无 OCR", "0.52"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "哪个成绩最低？", "answer": "无 OCR，准确率0.52。", "evidence": ["无 OCR", "0.52"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "OCR 启用后有什么说明？", "answer": "对截图更友好。", "evidence": ["对截图更友好"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "备注栏里写了什么？", "answer": "对截图更友好。", "evidence": ["对截图更友好"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "OCR 方案的特点？", "answer": "对截图更友好。", "evidence": ["对截图更友好"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "数据有几行？", "answer": "3行（不含表头）。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "表格里有多少行记录？", "answer": "3行（不含表头）。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "行数是多少？", "answer": "3行（不含表头）。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "列数是多少？", "answer": "4列。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "共有多少列？", "answer": "4列。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "表头包含几列？", "answer": "4列。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "基础方案可追溯吗？", "answer": "低。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "未用 OCR 的追溯评级？", "answer": "低。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "最低配置可信度？", "answer": "低。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "最大准确率？", "answer": "0.79。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "最优成绩数值？", "answer": "0.79。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "表中最大值？", "answer": "0.79。", "evidence": [], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "趋势是上升还是下滑？", "answer": "整体增长。", "evidence": ["Q1 12", "Q4 24"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "整体走向？", "answer": "整体增长。", "evidence": ["Q1 12", "Q4 24"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "从图上看是涨还是跌？", "answer": "整体增长。", "evidence": ["Q1 12", "Q4 24"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "哪个 Q 最高？", "answer": "Q4，用户量为24。", "evidence": ["Q4", "24"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "峰值在哪个季度？", "answer": "Q4，用户量为24。", "evidence": ["Q4", "24"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "哪一季度成绩最好？", "answer": "Q4，用户量为24。", "evidence": ["Q4", "24"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "第二季度数值？", "answer": "18。", "evidence": ["Q2", "18"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "Q2 的数据？", "answer": "18。", "evidence": ["Q2", "18"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "18 是哪一季度的值？", "answer": "18。", "evidence": ["Q2", "18"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "第三季度和第一季度谁更高？", "answer": "Q3 用户量15，高于 Q1 的12。", "evidence": ["Q1 12", "Q3 15"], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "Q1 和 Q3 哪个值大？", "answer": "Q3 用户量15，高于 Q1 的12。", "evidence": ["Q1 12", "Q3 15"], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "比较 Q1 与 Q3。", "answer": "Q3 用户量15，高于 Q1 的12。", "evidence": ["Q1 12", "Q3 15"], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "这张图叫什么？", "answer": "Q1-Q4 用户量变化图。", "evidence": ["Q1-Q4 用户量变化图"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "图的名字是？", "answer": "Q1-Q4 用户量变化图。", "evidence": ["Q1-Q4 用户量变化图"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "标题写了什么？", "answer": "Q1-Q4 用户量变化图。", "evidence": ["Q1-Q4 用户量变化图"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "第二到第三季度怎么变？", "answer": "下降，从18降到15。", "evidence": [], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "Q2→Q3 走向？", "answer": "下降，从18降到15。", "evidence": [], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "中间段的变化？", "answer": "下降，从18降到15。", "evidence": [], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "均值是多少？", "answer": "约17.25。", "evidence": [], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "平均用户量？", "answer": "约17.25。", "evidence": [], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "四个数的平均数？", "answer": "约17.25。", "evidence": [], "type": "图表推理", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "横坐标代表什么？", "answer": "季度（Q1-Q4）。", "evidence": [], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "X 轴含义？", "answer": "季度（Q1-Q4）。", "evidence": [], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "水平方向是什么？", "answer": "季度（Q1-Q4）。", "evidence": [], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "纵坐标是什么？", "answer": "用户量。", "evidence": [], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "Y 轴含义？", "answer": "用户量。", "evidence": [], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "竖直方向代表什么？", "answer": "用户量。", "evidence": [], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "这张截图里的文字能直接复制吗？", "answer": "不能，这是图片，需 OCR 提取。", "evidence": [], "type": "文档问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "OCR增强设置的可追溯性评价是什么？", "answer": "中。", "evidence": ["中"], "type": "表格问答", "difficulty": "易"}
+{"image_path": "data/demo/images/table_sample.png", "question": "三种设置中，哪种准确率在0.6到0.7之间？", "answer": "OCR增强，准确率0.68。", "evidence": ["0.68"], "type": "表格问答", "difficulty": "中"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "最小值出现在哪个季度？", "answer": "Q1，用户量为12。", "evidence": ["Q1 12"], "type": "图表推理", "difficulty": "易"}
+{"image_path": "data/demo/images/document_sample.png", "question": "文中用到的视觉模型属于哪个系列？", "answer": "Qwen2.5-VL 系列。", "evidence": [], "type": "文档问答", "difficulty": "难"}
+{"image_path": "data/demo/images/chart_sample.png", "question": "Q2 和 Q4 的用户量差距是多少？", "answer": "6，Q4为24，Q2为18。", "evidence": ["18 24"], "type": "图表推理", "difficulty": "中"}
